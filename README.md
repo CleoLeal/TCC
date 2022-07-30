@@ -13,3 +13,6 @@ cadastro" no ArenaPlay.
 31/05/2022
   Tentamos usar o estilo Responsivo no site, para que ele não altere a ordem e tamanho em outros computador/notebooks. Para isso, a Cléo começou a alterar os "px's" para
 porcentagem (%), para ver se assim ele ficava correto em outros computadores. Entretando, isso não ocorreu, em outro todos os objetos ficaram uma bagunça, menos o loginBox.
+
+29/07/2022 
+  Voltamos a mexer no Figma, fazendo o protótipo das nossas páginas de "entrada", tanto para clientes quanto para empresas. Não sabemos quando vamos terminar de fazer esse protótipo, mas o quão rápido, melhor.
