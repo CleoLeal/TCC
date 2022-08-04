@@ -19,3 +19,6 @@ porcentagem (%), para ver se assim ele ficava correto em outros computadores. En
 
 30/07/2022
   Cléo, Cristian e Elias fizeram o fluxograma do que já temos idéia de fazer. Como o login usuário e empresa, esqueci a senha e criar conta.
+  
+04/08/2022
+  Cléo começou a fazer a home page para cliente(PROTÓTIPO).
