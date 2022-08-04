@@ -16,3 +16,6 @@ porcentagem (%), para ver se assim ele ficava correto em outros computadores. En
 
 29/07/2022 
   Voltamos a mexer no Figma, fazendo o protótipo das nossas páginas de "entrada", tanto para clientes quanto para empresas. Não sabemos quando vamos terminar de fazer esse protótipo, mas o quão rápido, melhor.
+
+30/07/2022
+  Cléo, Cristian e Elias fizeram o fluxograma do que já temos idéia de fazer. Como o login usuário e empresa, esqueci a senha e criar conta.
