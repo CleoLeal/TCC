@@ -6,7 +6,7 @@
     height: 80%;
     left: 34%;
     top: 10vh;
-    background-color: rgb(241, 237, 229);
+    background-color: #FFFFFF;
     border-radius: 15%;
 }
 
@@ -18,7 +18,7 @@
     top: 0%;
     background: #BBBBBB;
     border-radius: 10px;
-    background: url('logoArenaPlay.png');
+    background: url('https://github.com/CleoLeal/TCC/blob/main/Login%20Page/toqueNaRedeOf.png?raw=true');
 }
 
 .slogan {
