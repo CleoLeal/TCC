@@ -98,13 +98,59 @@
     left:60px;
 }
 .senha.icon{
-    top: -97px;
+    top: -135px;
 }
 .senha.icon img{
-    padding: 1.5vh 0.1vw;
+    padding: 1.8vh 0.2vw;
     position: relative;
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
     top: -10px;
     right: 1;
+}
+.senha Input{
+    position: relative; 
+    width: 313px;
+    height: 31px;
+    left: 55px;
+    top: -95px;
+    border-radius: 10px;
+}
+.esqueci.text{
+    position:relative;
+    top:-120px;
+    left: 280px;
+}
+.entrar button{
+    position: relative;
+    width: 210px;
+    height: 54px;
+    left: 100px;
+    top: -100px;
+    cursor: pointer;
+    background: #2DCF00;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px #000000;
+    border-radius: 10px;
+}
+.entrar.text{
+    position: center;
+    font-size:25pt;
+
+}
+.criar button{
+    width: 250px;
+    height: 30px;
+    left: 80px;
+    top: 420px;
+    position: absolute;
+    bottom: 0%;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.criar.text{
+    position: center;
+    font-size: 15pt;
+    color:#ffffff;    
 }
