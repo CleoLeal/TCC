@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
+/*body do html*/
 *{
     align-items:center;
     font-family:'oswald';
     font-size: 12pt;
 }
+/*box branca*/
 .loginbox {
     position: absolute;
     width: 30%;
@@ -15,6 +16,7 @@
     border-radius: 15%;
     justify-content: center;
 }
+/*imagem de fundo*/
 .img {
     content: "";
     position: fixed;
@@ -24,7 +26,7 @@
     z-index: -1;
 
     display: block;
-    background-image: url('https://github.com/CleoLeal/TCC/blob/main/Login%20Page/imagens/backgroundLoginEmpresa.jpeg?raw=true');
+    background-image: url('https://minimanual.com/wp-content/uploads/POSICIONES-DEL-VOLEIBOL-5.jpeg');
     width: 1400px;
     height: 850px;
 
@@ -46,7 +48,7 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-
+/*logo*/
 .loginbox img{
     padding: 2vh 4.8vw;
     position: relative;
@@ -55,16 +57,20 @@
     top: -10px;
     right: 1;
 }
+/*todo o texto do site*/
 .text{
     position:relative;
 }
+/*slogan*/
 .slogan.text{
     top:-45px;
 }
+/*usario texto*/
 .usuario.text{
     top:-55px;
     left:60px;
 }
+/*bolinha do user e senha*/
 .icon{
     position: relative;
     width: 10%;
@@ -77,6 +83,7 @@
 .user.icon{
     top: -77px;
 }
+/*adicionando imagem na bolinha*/
 .user.icon img{
     padding: 1.5vh 0.1vw;
     position: relative;
@@ -85,6 +92,7 @@
     top: -10px;
     right: 1;
 }
+/*input do email*/
 .email Input {
     position: absolute; 
     width: 313px;
@@ -93,13 +101,16 @@
     top: 170px;
     border-radius: 10px;
 }
+/*senha texto*/
 .senha.text{
     top:-75px;
     left:60px;
 }
+/*bolinhas senha*/
 .senha.icon{
     top: -135px;
 }
+/*adicionando imagem na bolinha*/
 .senha.icon img{
     padding: 1.8vh 0.2vw;
     position: relative;
@@ -108,6 +119,7 @@
     top: -10px;
     right: 1;
 }
+/*senha input*/
 .senha Input{
     position: relative; 
     width: 313px;
@@ -116,11 +128,13 @@
     top: -95px;
     border-radius: 10px;
 }
+/*text esqueci senha*/
 .esqueci.text{
     position:relative;
     top:-120px;
     left: 280px;
 }
+/*botão entrar*/
 .entrar button{
     position: relative;
     width: 210px;
@@ -133,11 +147,13 @@
     box-shadow: 0px 4px 4px #000000;
     border-radius: 10px;
 }
+/*entrar texto*/
 .entrar.text{
     position: center;
     font-size:25pt;
 
 }
+/*botão criar conta*/
 .criar button{
     width: 250px;
     height: 30px;
@@ -149,6 +165,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
+/*criar conta texto*/
 .criar.text{
     position: center;
     font-size: 15pt;
