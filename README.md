@@ -1,24 +1,21 @@
 # TCC
 Repostirório feito para o TCC da ETEC
 
-28/05/2022
-  Começamos a passar o planejamento do figma para código, para vermos como ele ficará diretamente no computador do jeito que nós sabemos fazer.
-  A Cléo fez a página de "Entrada" em código (HTML e CSS) que o Elias montou no figma. Enquanto isso, ele fazia o design de outra tela, que é a "caso você não tenha 
-cadastro" no ArenaPlay. 
-  Estamos valorizando a cor verde, pois ela demosntra o ar livre, e é onde mais ocorre os esportes, e fonte qu estamos usando é o "Oswald".
+CÁLCULOS:
+  Logo:
+    padding: 2vh 4.8vw;
+    position: relative;
+    width: 280px;
+    height: 120px;
+    top: -10px;
+    right: 1;
+    *ELE É FIXO POR COMPLETO*
 
-30/05/2022 
-  Fizemos um CSS externo para facilitar a leitura do código, deixando ele principalmente mais limpo.
-
-31/05/2022
-  Tentamos usar o estilo Responsivo no site, para que ele não altere a ordem e tamanho em outros computador/notebooks. Para isso, a Cléo começou a alterar os "px's" para
-porcentagem (%), para ver se assim ele ficava correto em outros computadores. Entretando, isso não ocorreu, em outro todos os objetos ficaram uma bagunça, menos o loginBox.
-
-29/07/2022 
-  Voltamos a mexer no Figma, fazendo o protótipo das nossas páginas de "entrada", tanto para clientes quanto para empresas. Não sabemos quando vamos terminar de fazer esse protótipo, mas o quão rápido, melhor.
-
-30/07/2022
-  Cléo, Cristian e Elias fizeram o fluxograma do que já temos idéia de fazer. Como o login usuário e empresa, esqueci a senha e criar conta.
-  
-04/08/2022
-  Cléo começou a fazer a home page para cliente(PROTÓTIPO).
+  Input: 
+    position: absolute; 
+    width: 313px;
+    height: 31px;
+    left: 55px;
+    border-radius: 10px;
+    *SOMENTE O TOP TEM ALTERAÇÃO*
+    tentem sempre ser números "fixos o top e left. Ex: 5,10,15,20
