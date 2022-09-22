@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    align-items:center;
+    font-family:'oswald';
+    font-size: 12pt;
+}
 .loginbox {
     position: absolute;
     width: 30%;
@@ -42,11 +48,32 @@
 }
 
 .loginbox img{
-    padding: 2vh 2.3vw;
-    padding-bottom: 1vh 0.1vw;
-    position: absolute;
-    width: 310px;
-    height: 150px;
+    padding: 2vh 4.8vw;
+    position: relative;
+    width: 280px;
+    height: 120px;
     top: -10px;
-    right: 0.5;
+    right: 1;
+}
+.text{
+    position:relative;
+}
+.slogan.text{
+    top:-45px;
+}
+.usuario.text{
+    top:-40px;
+    left:50px;
+}
+.icon{
+    position: relative;
+    width: 10%;
+    height: 8%;
+    left: 1%;
+    top: 15%;
+    background: #BBBBBB;
+    border-radius: 200px;
+}
+.user.icon{
+    top: 494px;
 }
