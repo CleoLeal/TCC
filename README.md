@@ -13,10 +13,12 @@ CÁLCULOS:
 
   Input: 
     position: absolute; 
-    width: 313px;
-    height: 31px;
-    left: 55px;
-    border-radius: 10px;
+    width: 23vw;
+    height: 4.5vh;
+    left: 3.5vw;
+    top: 25vh;
+    border: 0.12vh solid #000000;
+    border-radius: 2vh;  
     *SOMENTE O TOP TEM ALTERAÇÃO*
     tentem sempre ser números "fixos o top e left. Ex: 5,10,15,20
 
