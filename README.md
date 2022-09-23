@@ -19,3 +19,13 @@ CÁLCULOS:
     border-radius: 10px;
     *SOMENTE O TOP TEM ALTERAÇÃO*
     tentem sempre ser números "fixos o top e left. Ex: 5,10,15,20
+
+ENDEREÇO DAS IMAGENS:
+    Fundo - Login cliente: https://www.ubatuba.sp.gov.br/wp-content/uploads/sites/2/2016/11/VDP.jpg
+    Fundo - Login Empresa: https://minimanual.com/wp-content/uploads/POSICIONES-DEL-VOLEIBOL-5.jpeg
+    Fundo - Criar conta: https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1
+    Fundo -  Esqueci senha: https://blog.bodog.com/volei-de-praia/
+    Ícone user (EMPRESA):https://cdn-icons-png.flaticon.com/512/8175/8175264.png
+    Ícone senha (CLIENTE E EMPRESA): https://cdn-icons-png.flaticon.com/512/45/45259.png
+    Ícone user (CLIENTE): https://cdn-icons-png.flaticon.com/512/456/456212.png
+    
