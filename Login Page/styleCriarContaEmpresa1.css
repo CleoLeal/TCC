@@ -3,7 +3,7 @@
 *{
     align-items:center;
     font-family:'oswald';
-    font-size: 14pt;
+    font-size: 1.3vw;
 }
 /*box branca*/
 .loginbox {
@@ -51,11 +51,11 @@
 }
 /*logo*/
 .loginbox img{
-    padding: 2vh 4.8vw;
+    padding: 2vh 4vw;
     position: relative;
-    width: 20vw;
-    height: 13vh;
-    top: -10px;
+    width: 22vw;
+    height: 17vh;
+    top: -0.52vh;
     right: 1;
 }
 /*linha dos passos*/
@@ -118,7 +118,7 @@
 }
 /*razao social texto e input*/
 .razao.text{
-    top:21.5vh;
+    top:21vh;
     left:4vw;
 }
 .razao.caixa Input {
@@ -132,7 +132,7 @@
 }
 /*nome fantasia texto e input*/
 .fantasia.text{
-    top:31.5vh;
+    top:31vh;
     left:4vw;
 }
 .fantasia input{
@@ -146,7 +146,7 @@
 }
 /*email texto e input*/
 .email.text{
-    top:41.5vh;
+    top:41vh;
     left:4vw;
 }
 .email input{
@@ -160,7 +160,7 @@
 }
 /*telefone texto e input*/
 .telefone.text{
-    top:51.5vh;
+    top:51vh;
     left:4vw;
 }
 .telefone input{
@@ -178,7 +178,7 @@
     width: 11vw;
     height: 7vh;
     left: 9vw;
-    top: 50vh;
+    top: 45vh;
     cursor: pointer;
     background: #2DCF00;
     box-shadow: 0px 4px 4px #000000;
