@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 /*body do html*/
 *{
+    display:relative;
     align-items:center;
     font-family:'oswald';
     font-size: 1.3vw;
@@ -52,11 +53,12 @@
 /*logo*/
 .loginbox img{
     padding: 2vh 4vw;
-    position: relative;
     width: 22vw;
     height: 17vh;
     top: -0.52vh;
     right: 1;
+    top: -30vh;
+    left: 18vw;
 }
 /*todo o texto do site*/
 .text{
@@ -74,7 +76,7 @@
 }
 /*bolinha do user e senha*/
 .icon{
-    position: relative;
+    position:absolute;
     width: 3.2vw;
     height: 7vh;
     left: 1vh;
@@ -83,15 +85,14 @@
     border: 0.30vh solid #000000;
 }
 .user.icon{
-    top: 8.9vh;
+    top: 31vh;
 }
 /*adicionando imagem na bolinha*/
 .user.icon img{
-    padding: 1.5vh 0.1vw;
-    position: relative;
+    padding: 0.5vh 0.1vw;
     width: 3vw;
     height: 6vh;
-    top: -1.4vh;
+    top: 2vh;
    
 }
 /*input do email*/
@@ -112,15 +113,15 @@
 }
 /*bolinhas senha*/
 .senha.icon{
-    top: 14.7vh;
+    top: 44vh;
+    right:30vw;
 }
 /*adicionando imagem na bolinha*/
 .senha.icon img{
-    padding: 1.5vh 0.1vw;
-    position: relative;
+    padding: 0.5vh 0.1vw;
     width: 3vw;
     height: 6vh;
-    top: -1.2vh;
+    top: 2vh;
 }
 /*senha input*/
 .senha Input{
@@ -145,7 +146,7 @@
     width: 13vw;
     height: 8vh;
     left: 8.5vw;
-    top: 23vh;
+    top: 38vh;
     cursor: pointer;
     background: #2DCF00;
     box-shadow: 0px 4px 4px #000000;
@@ -165,7 +166,7 @@
     width: 17vw;
     height: 5vh;
     left: 6.3vw;
-    top: 25vh;
+    top: 40vh;
     position: relative;
     bottom: 0%;
     background: #000000;
