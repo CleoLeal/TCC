@@ -160,11 +160,11 @@
     border-radius: 2vh;
 }
 /*n° texto e input*/
-.n.text{
+.telefone.text{
     top:51vh;
     left:4vw;
 }
-.n input{
+.telefone input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
