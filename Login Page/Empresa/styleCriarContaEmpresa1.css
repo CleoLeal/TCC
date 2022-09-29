@@ -54,8 +54,8 @@
 .loginbox img{
     padding: 2vh 4vw;
     position: relative;
-    width: 22vw;
-    height: 17vh;
+    width: 30vw;
+    height: 22vh;
     top: -0.52vh;
     right: 1;
 }
@@ -192,4 +192,8 @@
     font-size:2vw;
     left: 1.5vw;
 
+}
+
+@media screen and (max-width: 768px){
+    
 }
