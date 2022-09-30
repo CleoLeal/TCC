@@ -8,5 +8,5 @@ form.addEventListener("submit", (e) =>{
 })
 function prosseguir1()
 {
-    window.location("criarContarEmpresa2.html")
+    window.location.replace("criarContaEmpresa2")
 }
