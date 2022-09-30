@@ -29,26 +29,27 @@
     <div class="loginbox">
         <!--logo-->
         <img src='https://github.com/CleoLeal/TCC/blob/main/Login%20Page/logoTNR.png?raw=true'>
-        <form method="POST" action="prosseguir1.php">
+        <form id="form">
             <!--razao social nome e input-->
             <div class="razao text"><b>Razão Social</b></div>
-            <div class="razao caixa"><input type="text" name="razaoSocial" maxlength="40"></div>
+            <div class="razao caixa"><input type="text" name="razaoSocial" maxlength="40" id="razaoSocial"></div>
             <!--nome fantasia nome e input-->
             <div class="fantasia text"><b>Nome Fantasia</b></div>
-            <div class="fantasia"><input type="text" name="fantasia" maxlength="40"></div>
+            <div class="fantasia"><input type="text" name="fantasia" maxlength="40" id="fantasia"></div>
             <!--email nome e input-->
             <div class="email text"><b>E-mail</b></div>
-            <div class="email"><input type="text" name="email" maxlength="40"></div>
+            <div class="email"><input type="text" name="email" maxlength="40" id="email"></div>
             <!--telefone nome e input-->
             <div class="telefone text"><b>Telefone</b></div>
-            <div class="telefone"><input type="text" name="email" maxlength="40"></div>
+            <div class="telefone"><input type="text" name="email" maxlength="40" id="telefone"></div>
             <!--botão prosseguir-->
-            <div class="prosseguir"><button type="submit" name:"enviar">
+            <div class="prosseguir"><button type="submit" name="prosseguir1" id="prosseguir1" onclick="prosseguir1()">
                 <div class="prosseguir text">Prosseguir</div>
                 </button>
             </div>
         </form>
     </div>
+    <script src="prosseguir.js"></script>
 </body>
 
 </html>
