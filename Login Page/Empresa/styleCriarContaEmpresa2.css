@@ -70,28 +70,43 @@
     transform: rotate(0.27deg);
 }
 /*passos de 1 a 3*/
-.passos{
+.passo1 button{
+    top:2vh;
+    left:37vw;
     box-sizing: border-box;
     position: absolute;
     width: 5vw;
     height: 10vh;
-    left: 23.43vw;
-    top: 4.11vh;
     background: #2DCF00;
     border: 0.12vh solid #000000;
     border-radius: 50%;
+    cursor: pointer;
 }
-.passos.passo1{
-    top:2vh;
-    left:37vw;
-}
-.passos.passo2{
+.passo2 button{
     top:2vh;
     left:47vw;
+    box-sizing: border-box;
+    position: absolute;
+    width: 5vw;
+    height: 10vh;
+    left: 46vw;
+    top: 2vh;
+    background: #2DCF01;
+    border: 0.4vh solid #000000;
+    border-radius: 50%;
 }
-.passos.passo3{
+.passo3 button{
     top:2vh;
     left:57vw;
+    box-sizing: border-box;
+    position: absolute;
+    width: 5vw;
+    height: 10vh;
+    left: 55vw;
+    top: 2vh;
+    background: #2DCF00;
+    border: 0.12vh solid #000000;
+    border-radius: 50%;
 }
 /*número dos passos (1 a 3)*/
 .number{
@@ -101,18 +116,18 @@
 }
 .p1.number{
     position:relative;
-    left:1.9vw;
-    top:1.5vh;
+    left:-0.10vw;
+    top:-0.2vh;
 }
 .p2.number{
     position:relative;
-    left:1.9vw;
-    top:1.5vh;
+    left:-0.10vw;
+    top:-0.2vh;
 }
 .p3.number{
     position:relative;
-    left:1.9vw;
-    top:1.5vh;
+    left:-0.10vw;
+    top:-0.2vh;
 }
 .text{
     position:absolute;

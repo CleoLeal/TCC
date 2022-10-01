@@ -81,15 +81,16 @@
     border: 0.12vh solid #000000;
     border-radius: 50%;
 }
-.passos.passo1{
+.passo1.passos{
     top:2vh;
     left:37vw;
+    border: 0.4vh solid #000000;
 }
-.passos.passo2{
+.passo2.passos{
     top:2vh;
     left:47vw;
 }
-.passos.passo3{
+.passo3.passos{
     top:2vh;
     left:57vw;
 }
@@ -184,6 +185,7 @@
     box-shadow: 0px 4px 4px #000000;
     border: 0.12vh solid #000000;
     border-radius: 1vh;
+    cursor: pointer;
 }
 .prosseguir.text{
     top: -0.5vh;
