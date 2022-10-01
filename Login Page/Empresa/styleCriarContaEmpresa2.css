@@ -52,12 +52,12 @@
 }
 /*logo*/
 .loginbox img{
-    padding: 2vh 4vw;
+    padding: 2vh 3.5vw;
     position: relative;
-    width: 22vw;
+    width: 25vw;
     height: 17vh;
     top: -0.52vh;
-    right: 1;
+    left: -1vw;
 }
 /*linha dos passos*/
 .line{
@@ -89,8 +89,6 @@
     position: absolute;
     width: 5vw;
     height: 10vh;
-    left: 46vw;
-    top: 2vh;
     background: #2DCF01;
     border: 0.4vh solid #000000;
     border-radius: 50%;
@@ -102,8 +100,6 @@
     position: absolute;
     width: 5vw;
     height: 10vh;
-    left: 55vw;
-    top: 2vh;
     background: #2DCF00;
     border: 0.12vh solid #000000;
     border-radius: 50%;
