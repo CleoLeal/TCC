@@ -1,3 +1,7 @@
+function criarConta()
+{
+   window.location = "./criarContaEmpresa1.html";
+}
 function prosseguir1(){
    window.location = "./criarContaEmpresa2.html";
 }
