@@ -52,13 +52,12 @@
 }
 /*logo*/
 .loginbox img{
-    padding: 2vh 4vw;
-    width: 22vw;
+    padding: 2vh 2.5vw;
+    position: relative;
+    width: 25vw;
     height: 17vh;
     top: -0.52vh;
     right: 1;
-    top: -30vh;
-    left: 18vw;
 }
 /*todo o texto do site*/
 .text{
@@ -92,7 +91,7 @@
     padding: 0.5vh 0.1vw;
     width: 3vw;
     height: 6vh;
-    top: 2vh;
+    top: -0.2vh;
    
 }
 /*input do email*/
@@ -121,7 +120,7 @@
     padding: 0.5vh 0.1vw;
     width: 3vw;
     height: 6vh;
-    top: 2vh;
+    top: -0.2vh;
 }
 /*senha input*/
 .senha Input{
