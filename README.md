@@ -3,11 +3,11 @@ Repostirório feito para o TCC da ETEC
 
 CÁLCULOS:
   Logo:
-    padding: 2vh 4.8vw;
+    padding: 2vh 2.5vw;
     position: relative;
-    width: 280px;
-    height: 120px;
-    top: -10px;
+    width: 25vw;
+    height: 17vh;
+    top: -0.52vh;
     right: 1;
     *ELE É FIXO POR COMPLETO*
 
