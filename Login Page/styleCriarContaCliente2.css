@@ -117,7 +117,7 @@
 .data Input {
     position: absolute; 
     width: 23vw;
-    height: 4.5vh;
+    height: 5.5vh;
     left: 3.5vw;
     top: 25vh;
     border: 0.12vh solid #000000;
@@ -125,29 +125,29 @@
 }
 /*nome fantasia texto e input*/
 .senha.text{
-    top:31vh;
+    top:34vh;
     left:4vw;
 }
 .senha input{
     position: absolute; 
     width: 23vw;
-    height: 4.5vh;
+    height: 5.5vh;
     left: 3.5vw;
-    top: 35vh;
+    top: 38vh;
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
 /* Input confirmar = Senha */
 .confirmarsenha.text{
-    top:41vh;
+    top:47vh;
     left:4vw;
 }
 .confirmarsenha input{
     position: absolute; 
     width: 23vw;
-    height: 4.5vh;
+    height: 5.5vh;
     left: 3.5vw;
-    top: 45vh;
+    top: 51vh;
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
