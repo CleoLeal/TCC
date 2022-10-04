@@ -3,11 +3,11 @@ Repostirório feito para o TCC da ETEC
 
 CÁLCULOS:
   Logo:
-    padding: 2vh 4.8vw;
+    padding: 2vh 2.5vw;
     position: relative;
-    width: 280px;
-    height: 120px;
-    top: -10px;
+    width: 25vw;
+    height: 17vh;
+    top: -0.52vh;
     right: 1;
     *ELE É FIXO POR COMPLETO*
 
@@ -30,7 +30,9 @@ ENDEREÇO DAS IMAGENS:
     Fundo - Criar conta: https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1
 <br>    
     Fundo -  Esqueci senha: https://blog.bodog.com/volei-de-praia/
-<br>    
+<br>   
+    Fundo - Criar Conta Cliente: https://regrasdoesporte.com.br/wp-content/uploads/2012/12/regras-volei-de-praia.jpg
+<br>
     Ícone user (EMPRESA):https://cdn-icons-png.flaticon.com/512/8175/8175264.png
 <br>    
     Ícone senha (CLIENTE E EMPRESA): https://cdn-icons-png.flaticon.com/512/45/45259.png

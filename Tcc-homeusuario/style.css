@@ -39,8 +39,8 @@
 }
 
 #menu-hi ul li a{
-    margin-left: 70px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
     color: rgb(0, 0, 0);
     padding: 20px;
     display: inline-block;
@@ -48,10 +48,10 @@
     transition:  background .4s;
 }
 
-#menu-hi ul li a:hover {
+/*#menu-hi ul li a:hover {
     background-color: rgb(39, 143, 65);
 
-}
+}*/
 
 #menu-nav ul{
     list-style: nome;
@@ -82,4 +82,69 @@ input {
     width: 750px;
     height: 40px;
     border-radius: 20px;
+}
+.perfil{
+    position: relative;
+    width: 10vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
+.quem_somos{
+    position: relative;
+    width: 15vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
+.arenas{
+    position: relative;
+    width: 7vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
+.localizacao{
+    position: relative;
+    width: 13vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
+.configuracao{
+    position: relative;
+    width: 13vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
 }
