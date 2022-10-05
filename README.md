@@ -29,7 +29,7 @@ ENDEREÇO DAS IMAGENS:
 <br>   
     Fundo - Criar conta: https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1
 <br>    
-    Fundo -  Esqueci senha: https://blog.bodog.com/volei-de-praia/
+    Fundo -  Esqueci senha: https://blog.bodog.com/wp-content/uploads/2020/11/volei-praia.jpg
 <br>   
     Fundo - Criar Conta Cliente: https://regrasdoesporte.com.br/wp-content/uploads/2012/12/regras-volei-de-praia.jpg
 <br>
