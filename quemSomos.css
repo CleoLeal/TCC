@@ -1,0 +1,531 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css? family=Oswald: 400, 700");
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h ul{
+    list-style: nome;
+    padding: 0;
+    background-color: #2DCF00;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+
+/* Fundo do menu*/
+
+.quemsomos {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    border: 1px none; 
+    overflow: hidden; 
+    flex-direction: column; 
+    height: 20vh;
+    width: 99vw;
+}
+
+ /*Area após a barra de pesquisa. Com os botões Meu perfil/Quem Somos..*/
+
+.barra-de-pesquisas {
+    align-items: flex-start;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 3vh; 
+    min-height: 88vh; 
+    width: 14vw;
+    background-color: #ffffff;
+   
+}
+
+/*Referente a linha Quem somos/meu perfil/ localização*/
+.overlap-group-container{
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    margin-left: 29px;
+    margin-top: 18px;
+    min-width: 1379px;
+   
+    
+    
+   
+}
+
+/*Página Quem somos no menu*/
+.quem-somos {
+    position: relative;
+    width: 15vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;   
+}
+
+/*div da arena*/
+.overlap-group-1{
+        align-items: flex-end;
+        background-color: var(--screamin-green); 
+        border: 2px solid;
+        border-color: var(--black);
+        border-radius: 10px;
+        display: flex; 
+        height: 52px;
+        justify-content: flex-end;
+        margin-left: 16px;
+        min-width: 196px;
+        padding: 2px 26px;
+        background-color: #72FD4C;
+        justify-content: flex;
+        margin-left: 25px;
+}
+
+
+
+/*Div do configuração*/
+.overlap-group3{
+    align-items: flex-start;
+    background-color: var(--screamin-green); 
+    border: 2px solid;
+    border-color: var(--black);
+    border-radius: 10px;
+    display: flex; 
+    height: 52px;
+    min-width: 50px;
+    padding: 3px 48px;
+    background-color: #72FD4C;
+    justify-content: flex;
+    margin-left: 25px;
+    margin-right: 150px;
+    
+
+}
+
+
+
+/*Div da configuração*/
+.quatro {
+    align-items: flex;
+    background-color: var(--screamin-green);
+    border: 2px solid;
+    border-color: var(--black); 
+    border-radius: 10px;
+    height: 52px;
+    width: 196px;
+    position: absolute;
+    margin-left: 970px;
+    margin-right: 250px;
+    justify-content: flex;
+    background-color: #72FD4C;
+   
+    
+}
+
+/* Primeira divisao/com o fundo verde*/
+.rectangle-7{
+    background-color: #cBffb9;
+    border: 1px none;
+    height: 65vh;
+    width: 99vw;
+    left: 0.1vw;
+    position: absolute;
+    top: 40vh;
+}  
+
+/* Texto da primeira imagem com o fundo verde*/
+.lorem-ipsum-dolor-si{
+    left: 35vw;
+    letter-spacing: 0;
+    position: absolute;
+    top: 14vh;
+    width: 620vw;
+}
+
+/* Imagem da Primeira tela com o fundo verde*/
+
+.volei-de-praia {
+    height: 50vh;
+    width: 28vw;
+    left: 5vw;
+    object-fit: cover;
+    position: absolute;
+    top: 1vh;
+    
+}
+
+/*Icone do menu*/
+
+.menu-1 {
+height: 51px;
+left: 24px;
+object-fit: cover;
+position: absolute;
+top: 35px;
+width: 52px;
+}
+
+
+
+/*Imagem da rede dentro da div verde*/
+.volei-de-praia-2 {
+    height: 452vh;
+    width: 511px;
+    left: 36px;
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    
+
+}
+
+/*Icone do usuario no menu*/
+.user-1{
+    height: 5.5vh;
+    left: 1335px;
+    object-fit: cover;
+    position: absolute;
+    top: 18px;
+    width: 3vw;
+    color: rgba(0,0,0,1);
+    background-color: rgba(114, 253, 76, 1);
+    background: rgba(255, 255, 255, 1);
+}
+
+/* Divisão da Segunda tela com a imagem no fundo*/
+.rectangle-19 {
+    height: 80vh;
+    width: 99vw;
+    left: 0.1vw;
+    object-fit: cover;
+    position: absolute;
+    top: 100vh;
+}
+
+/* Texto da segunda tela, com a imagem de fundo*/
+.lorem-ipsum-dolor-si-1 {
+    height:10vh;
+    width: 20vw;
+    left: 24vh;
+    letter-spacing: 0;
+    position: absolute;
+    top: 105vh;
+     
+} 
+
+
+
+
+
+/* Divisão da terceira tela com o fundo preto*/
+.rectangle-21 {
+    background-color: #676767;
+    border: 1px none;
+    height: 73.2vh;
+    width: 99vw;
+    left: 0.1vw; 
+    position: absolute; 
+    top: 159vh; 
+    
+    
+}
+
+/* Texto da terceira tela com o fundo preto*/
+.lorem-ipsum-dolor-si-2 {
+    width: 40vw;
+    left: 50vw; 
+    position: absolute; 
+    top: 10vh; 
+    letter-spacing: 0;
+}
+
+/* Icone dos úsuarios da terceira tela  com o fundo preto*/
+.group-1 {
+    height: 10vh;
+    width: 10vw;
+    left: 5vw; 
+    position: absolute; 
+    top: 0.20vh; 
+    object-fit: cover; 
+   
+
+}
+
+
+
+/*Fundo da barra de pesquisa*/
+.overlap-group8{
+    height:900px;
+    width:200px;
+    position: relative;
+    background-color: #2DCF00;
+
+}
+
+
+
+
+/*Cor da barra da pesquisa*/
+.overlap-group{
+    align-items: flex-start;
+    background-color: var(--write);
+    border: 3px solid;
+    border-color: (--black);
+    border-radius: 30px;
+    display: flex;
+    gap: 15px;
+    height: 4vh;
+    margin-left: 140px;
+    margin-top: 30px;
+    min-width: 750px;
+    padding: 7px 18px;
+    background-color: #ffffff;
+    
+}
+
+/* Pesquisar dentro do espaço do menu*/
+
+.pesquisar{
+    align-items: center;
+    color: #00000080;
+    font-family: var(--font-family-oswald);
+    font-size: var(--font-size-xxxxs);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 7px;
+    min-height: 45vh;
+    width: 89px;
+}
+
+/* Lupa ao lado esquerdo da barra de pesquisa*/
+
+.lupa-1{
+    height: 5vh;
+    width: 2.5vw;
+    object-fit: cover;
+    top: 10px;
+}
+
+/*Botão de configuração*/
+
+.overlap-group1-1{
+    position: relative;
+    width: 13vw;
+    height: 6vh;
+    left: 0.5vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+   
+   
+}
+
+/*Botão Quem somos*/
+.overlap-group2{
+    position: relative;
+    width: 7vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #387D25;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+    
+}
+
+/*Botão arenas*/
+.arenas{
+    position: relative;
+    width: 7vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+
+/*Botão meu perfil*/
+.meu-perfil{
+    position: relative;
+    width: 10vw;
+    height: 6vh;
+    left: -0.200vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+   
+}
+
+/*Botão de localização*/
+.localizao{
+    position: relative;
+    width: 13vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center
+    
+}
+
+/*Fundo do menu*/
+.entrar{
+    align-items: flex-start;
+    border: 1px none;
+    display: flex;
+    height: 62px;
+    left: 1000px;
+    min-width: 348px;
+    position: absolute;
+    top: 30px;
+    
+
+   
+}
+
+/*Palavra entrar do menu*/
+.entrar-1{
+    color: var(--black);
+    font-family: var(--font-family-oswald);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-top: -1px;
+    min-height: 80px;
+    text-align: right;
+    text-decoration: underline;
+    width: 300px;
+   
+}
+
+/*Circulo da imagem do icone do menu*/
+.icon_user{
+    background-color: var(--write);
+    border: 1px solid;
+    border-color: var(--black);
+    border-radius: 40px/37.5px;
+    width: 80px;
+    height: 70px;
+    left: 1325px;
+    position: absolute;
+    top: 8px;
+}
+
+/*  div do rodape*/
+.rodape{
+    align-items: flex-start;
+    background-color: #1b1b1b;
+    border: 1px none;
+    display: flex;
+    height: 28vh;
+    min-width: 86vw;
+    padding: 4vh 6vw;
+    position: relative; 
+    top:90vh;
+    left: 0.1vw;
+}
+
+
+/* Elementos da primeira coluna do rodape(Inicio)*/
+
+.inicio-home-localizacao-arenas{
+    letter-spacing: 0;
+    margin-left: 10vw;
+    margin-top: 4vh;
+    min-height: 12vh;
+    width: 10vw;
+    color:white; 
+    font-size: 21px; 
+
+}
+
+/* Elementos do rodape da segunda coluna (Sobre)*/
+
+.sobre-home-localizacao-arenas{
+    letter-spacing: 0;
+    margin-left: 6vw;
+    margin-top: 4vh;
+    min-height: 12vh;
+    width: 10vw;
+    color:white; 
+    font-size: 21px; 
+}
+
+/* Elementos do rodape da segunda coluna (Suporte)*/
+
+.suporte-home-localizacao-arenas{
+    letter-spacing: 0;
+    margin-left: 6vw;
+    margin-top: 4vh;
+    min-height: 12vh;
+    width: 10vw;
+    color:white; 
+    font-size: 21px; 
+}
+
+/* Icone do rodape a esquerda */
+.volei-1{
+    height: 23vh;
+    width: 14vw;
+    object-fit: cover;
+    
+    
+}
+
+/* Imagem da cortina no rodape */
+.curtains-1{
+    align-self: center;
+    height: 22vh;
+    width: 11vw;
+    margin-bottom: 1px;
+    object-fit: cover;
+    margin-left: 20vw;
+}
+
+
+
+
