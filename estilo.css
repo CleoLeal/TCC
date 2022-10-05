@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing:border-box;
+    font-family: 'Oswald';
 }
 
 #menu-h ul{
@@ -46,7 +47,6 @@
     min-height: 88vh; 
     width: 14vw;
     background-color: #ffffff;
-   
 }
 
 /*Referente a linha Quem somos/meu perfil/ localização*/
@@ -57,10 +57,6 @@
     margin-left: 29px;
     margin-top: 18px;
     min-width: 1379px;
-   
-    
-    
-   
 }
 /*Página Quem somos no menu*/
 .quem-somos {
@@ -95,8 +91,6 @@
         margin-left: 25px;
 }
 
-
-
 /*Div do configuração*/
 .overlap-group3{
     align-items: flex-start;
@@ -112,11 +106,7 @@
     justify-content: flex;
     margin-left: 25px;
     margin-right: 150px;
-    
-
 }
-
-
 
 /*Div da configuração*/
 .quatro {
@@ -132,8 +122,6 @@
     margin-right: 250px;
     justify-content: flex;
     background-color: #72FD4C;
-   
-    
 }
 
 /* Primeira divisao/com o fundo verde*/
@@ -165,18 +153,16 @@
     object-fit: cover;
     position: absolute;
     top: 1vh;
-    
 }
 
 /*Icone do menu*/
-
 .menu-1 {
-height: 51px;
-left: 24px;
-object-fit: cover;
-position: absolute;
-top: 35px;
-width: 52px;
+    height: 51px;
+    left: 24px;
+    object-fit: cover;
+    position: absolute;
+    top: 35px;
+    width: 52px;
 }
 
 
@@ -189,8 +175,6 @@ width: 52px;
     object-fit: cover;
     position: absolute;
     top: 70px;
-    
-
 }
 
 /*Icone do usuario no menu*/
