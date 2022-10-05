@@ -125,7 +125,7 @@
 }
 /*nome fantasia texto e input*/
 .senha.text{
-    top:34vh;
+    top:33vh;
     left:4vw;
 }
 .senha input{
@@ -133,13 +133,13 @@
     width: 23vw;
     height: 5.5vh;
     left: 3.5vw;
-    top: 38vh;
+    top: 37vh;
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
 /* Input confirmar = Senha */
 .confirmarsenha.text{
-    top:47vh;
+    top:46vh;
     left:4vw;
 }
 .confirmarsenha input{
@@ -147,7 +147,7 @@
     width: 23vw;
     height: 5.5vh;
     left: 3.5vw;
-    top: 51vh;
+    top: 50vh;
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
