@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta Empresa</title>
+</head>
+    <link rel="stylesheet" type="text/css" href="styleCriarContaEmpresa2.css">
+    <script type="text/javascript" src="./../prosseguirButton.js"></script>
+    <script type="text/javascript" src="./../passos.js"></script>
+<body>
+    <!--Imagem de fundo-->
+    <div class="img"></div>
+    <!--linha dos passos do 1 a 3-->
+    <div class="line"></div>
+    <!--passos do 1 a 3-->
+    <div class="passo1">
+        <button onclick="passo1Empresa()" id="passo1Empresa">
+            <div class="p1 number">1</div>
+        </button>
+    </div>
+    <div class="passo2">
+        <button id="passo2">
+            <div class="p2 number">2</div>
+        </button>
+    </div>
+    <div class="passo3">
+        <button id="passo3">
+            <div class="p3 number">3</div>
+        </button>
+    </div>
+    <!--box branca-->
+    <div class="loginbox">
+        <!--logo-->
+        <img src='https://github.com/CleoLeal/TCC/blob/main/Login%20Page/logoTNR.png?raw=true'>
+        <!--rCNPJ nome e input-->
+        <div class="cnpj text"><b>CNPJ</b></div>
+        <div class="cnpj"><input type="text" name="cnpj" maxlength="40" placeholder="Ex: 00.000.000.000-00"></div>
+        <!--Inscrição estadual nome e input-->
+        <div class="inscricaoEstadual text"><b>Inscrição Estadual</b></div>
+        <div class="inscricaoEstadual"><input type="text" name="inscricaoEstadual" maxlength="40" placeholder="Ex: 000.000.000.000"></div>
+        <!--CEP nome e input-->
+        <div class="cep text"><b>CEP</b></div>
+        <div class="cep"><input type="text" name="cep" maxlength="40" placeholder="Ex: 00000-000"></div>
+        <!--N° nome e input-->
+        <div class="numero text"><b>N°</b></div>
+        <div class="numero"><input type="text" name="numero" maxlength="40" placeholder="Ex: 0"></div>
+        <!--botão prosseguir-->
+        <div class="prosseguir"><button onclick="prosseguir2Empresa()" id="prosseguir2Empresa">
+                <div class="prosseguir text">Prosseguir</div>
+            </button>
+        </div>
+</body>
+
+</html>
