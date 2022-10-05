@@ -69,26 +69,29 @@
     border: 1px dashed #000000;
     transform: rotate(0.27deg);
 }
-/*passos de 1 a 3*/
-.passos{
+/*passos de 1 a 2*/
+.passo1 button{
+    top:2vh;
+    left:40vw;
     box-sizing: border-box;
     position: absolute;
     width: 5vw;
     height: 10vh;
-    left: 23.43vw;
-    top: 4.11vh;
     background: #2DCF00;
     border: 0.12vh solid #000000;
     border-radius: 50%;
+    cursor: pointer;
 }
-.passo1.passos{
-    top:2vh;
-    left:40vw;
-}
-.passo2.passos{
+.passo2{
     top:2vh;
     left:52vw;
-    border: 0.5vh solid #000000;
+    box-sizing: border-box;
+    position: absolute;
+    width: 5vw;
+    height: 10vh;
+    background: #2DCF01;
+    border: 0.4vh solid #000000;
+    border-radius: 50%;
 }
 /*número dos passos (1 a 3)*/
 .number{
@@ -98,8 +101,8 @@
 }
 .p1.number{
     position:relative;
-    left:1.9vw;
-    top:1.5vh;
+    left:-0.1vw;
+    top:-0.2vh;
 }
 .p2.number{
     position:relative;
