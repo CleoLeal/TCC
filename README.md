@@ -38,4 +38,5 @@ ENDEREÇO DAS IMAGENS:
     Ícone senha (CLIENTE E EMPRESA): https://cdn-icons-png.flaticon.com/512/45/45259.png
 <br>    
     Ícone user (CLIENTE): https://cdn-icons-png.flaticon.com/512/456/456212.png
-    
+<br>
+    Lupa: https://cdn-icons-png.flaticon.com/512/3772/3772344.png
