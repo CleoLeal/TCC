@@ -31,10 +31,10 @@ function criarContaEmpresa2()
    window.location = "./loginEmpresa.html";
 }
 
-/*function criarConta (){
-   window.location = "./criarContaEmpresa.html";
-}*/
-
 function prosseguir1Cliente(){
    window.location = "./criarContaCliente2.html";
 }
+/*
+function criarContaCliente2(){
+   window.location = "./loginPage.html";
+}*/
