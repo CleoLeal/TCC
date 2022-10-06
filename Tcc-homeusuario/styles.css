@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*body html*/
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'oswald';
+    font-size:1.3vw;
+}
+
+
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: #2DCF00;
+}
+
+
+
+#menu-h ul li{
+    display: inline;
+}
+
+
+
+#menu-h ul li a{
+    color: #fff;
+    padding: 3vh;
+    display: inline-block;
+    text-decoration: none;
+    transition:  background .4s;
+}
+
+
+
+#menu-h ul li a:hover {
+    background-color: rgb(23, 107, 55);
+
+
+
+}
+.pesq{
+    width: 60vh;
+    background-color: #fff;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5vw;
+    border-radius: 13vh;
+    border: 0.3vh solid black;
+    
+}
+.pesqimg{
+    width: 2vh;
+
+
+}
+/*Caixa de texto para cabeçalho*/
+.inputPesquisa{
+    height: auto;
+    background-color: transparent;
+    border: none;
+    margin-left: 1vh;
+    font-size: 2vh;
+
+}
+.inputPesquisa:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#menu-hi ul{
+    list-style: nome;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#menu-hi ul li{
+    display: inline;
+}
+
+
+
+#menu-hi ul li a{
+    margin-left: 3vh;
+    margin-right: 1vw;
+    color: rgb(0, 0, 0);
+    padding: 2vh;
+    display: inline-block;
+    text-decoration: none;
+    transition:  background .4s;
+}
+
+
+
+/*#menu-hi ul li a:hover {
+    background-color: rgb(39, 143, 65);
+}*/
+
+
+
+#menu-nav ul{
+    list-style: nome;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#menu-nav ul li{
+    display: inline;
+}
+
+
+
+#menu-nav ul li a{
+    color: rgb(0, 0, 0);
+    padding: 2vh;
+    display: inline-block;
+    text-decoration: none;
+    transition:  background .4s;
+}
+
+
+
+#menu-nav ul li a:hover {
+    background-color: rgb(72, 177, 112);
+
+
+
+}
+#menu-navi ul{
+    list-style: nome;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#menu-navi ul li{
+    display: inline;
+}
+
+
+
+#menu-navi ul li a{
+    color: rgb(0, 0, 0);
+    padding: 2vh;
+    display: inline-block;
+    text-decoration: none;
+    transition:  background .4s;
+}
+
+
+
+#menu-navi ul li a:hover {
+    background-color: rgb(72, 177, 112);
+
+
+
+}
+
+
+
+input {
+    margin-left: 40vh;
+    margin-right: 10vw;
+    width: 75vh;
+    height: 4vw;
+    border-radius: 2vh;
+}
+/*Botões do menu*/
+.perfil{
+    position: relative;
+    width: 10vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
+.quem_somos{
+    position: relative;
+    width: 15vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
+.adicionar_adm{
+    position: relative;
+    width: 13vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
+.localizacao{
+    position: relative;
+    width: 13vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
+.configuracao{
+    position: relative;
+    width: 13vw;
+    height: 6vh;
+    left: 0vw;
+    top: 0vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+}
