@@ -34,7 +34,7 @@ function criarContaEmpresa2()
 function prosseguir1Cliente(){
    window.location = "./criarContaCliente2.html";
 }
-/*
+
 function criarContaCliente2(){
    window.location = "./loginPage.html";
-}*/
+}
