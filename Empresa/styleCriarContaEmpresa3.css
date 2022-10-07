@@ -157,8 +157,8 @@
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
-/*botão prosseguir*/
-.prosseguir button{
+/*botão criar conta*/
+.prosseguir{
     position: relative;
     width: 11vw;
     height: 7vh;
@@ -169,6 +169,7 @@
     box-shadow: 0px 4px 4px #000000;
     border: 0.12vh solid #000000;
     border-radius: 1vh;
+    font-size:2vw;
 }
 .prosseguir.text{
     top: -0.5vh;
