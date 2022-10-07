@@ -281,19 +281,6 @@
     
 }
 
-/* Pesquisar dentro do espaço do menu*/
-
-.pesquisar{
-    align-items: center;
-    color: #00000080;
-
-    font-size: var(--font-size-xxxxs);
-    font-weight: 400;
-    letter-spacing: 0;
-    margin-bottom: 7px;
-    min-height: 45vh;
-    width: 89px;
-}
 
 /* Lupa ao lado esquerdo da barra de pesquisa*/
 
