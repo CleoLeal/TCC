@@ -90,11 +90,10 @@
     width: 5vw;
     height: 10vh;
     background: #2DCF01;
-    border: 0.12vh solid #000000;
+    border: 0.4vh solid #000000;
     border-radius: 50%;
-    cursor: pointer;
 }
-.passo3{
+.passo3 button{
     top:2vh;
     left:57vw;
     box-sizing: border-box;
@@ -102,7 +101,7 @@
     width: 5vw;
     height: 10vh;
     background: #2DCF00;
-    border: 0.4vh solid #000000;
+    border: 0.12vh solid #000000;
     border-radius: 50%;
 }
 /*número dos passos (1 a 3)*/
@@ -123,52 +122,81 @@
 }
 .p3.number{
     position:relative;
-    left:1.9vw;
-    top:1.5vh;
+    left:-0.10vw;
+    top:-0.2vh;
 }
 .text{
     position:absolute;
 }
-/*senha e input*/
-.senha.text{
-    top:25vh;
+/*cnpj texto e input*/
+.cnpj.text{
+    top:21vh;
     left:4vw;
 }
-.senha Input {
+.cnpj Input {
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
     left: 3.5vw;
-    top: 29vh;
+    top: 25vh;
     border: 0.12vh solid #000000;
     border-radius: 2vh;   
 }
-/*Confirmar senha texto e input*/
-.confirmar.text{
-    top:40vh;
+/*nome fantasia texto e input*/
+.inscricaoEstadual.text{
+    top:31vh;
     left:4vw;
 }
-.confirmar input{
+.inscricaoEstadual input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
     left: 3.5vw;
-    top: 44vh;
+    top: 35vh;
+    border: 0.12vh solid #000000;
+    border-radius: 2vh;
+}
+/*CEP texto e input*/
+.cep.text{
+    top:41vh;
+    left:4vw;
+}
+.cep input{
+    position: absolute; 
+    width: 23vw;
+    height: 4.5vh;
+    left: 3.5vw;
+    top: 45vh;
+    border: 0.12vh solid #000000;
+    border-radius: 2vh;
+}
+/*n° texto e input*/
+.numero.text{
+    top:51vh;
+    left:4vw;
+}
+.numero input{
+    position: absolute; 
+    width: 23vw;
+    height: 4.5vh;
+    left: 3.5vw;
+    top: 55vh;
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
 /*botão prosseguir*/
-.prosseguir button{
+.prosseguir{
     position: relative;
     width: 11vw;
     height: 7vh;
     left: 9vw;
-    top: 40vh;
+    top: 45vh;
     cursor: pointer;
     background: #2DCF00;
     box-shadow: 0px 4px 4px #000000;
     border: 0.12vh solid #000000;
     border-radius: 1vh;
+    font-size:2vw;
 }
 .prosseguir.text{
     top: -0.5vh;

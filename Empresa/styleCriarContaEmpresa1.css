@@ -52,12 +52,12 @@
 }
 /*logo*/
 .loginbox img{
-    padding: 2vh 3.5vw;
+    padding: 2vh 2.5vw;
     position: relative;
     width: 25vw;
     height: 17vh;
     top: -0.52vh;
-    left: -1vw;
+    right: 1;
 }
 /*linha dos passos*/
 .line{
@@ -70,39 +70,29 @@
     transform: rotate(0.27deg);
 }
 /*passos de 1 a 3*/
-.passo1 button{
+.passos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 5vw;
+    height: 10vh;
+    left: 23.43vw;
+    top: 4.11vh;
+    background: #2DCF00;
+    border: 0.12vh solid #000000;
+    border-radius: 50%;
+}
+.passo1.passos{
     top:2vh;
     left:37vw;
-    box-sizing: border-box;
-    position: absolute;
-    width: 5vw;
-    height: 10vh;
-    background: #2DCF00;
-    border: 0.12vh solid #000000;
-    border-radius: 50%;
-    cursor: pointer;
+    border: 0.4vh solid #000000;
 }
-.passo2 button{
+.passo2.passos{
     top:2vh;
     left:47vw;
-    box-sizing: border-box;
-    position: absolute;
-    width: 5vw;
-    height: 10vh;
-    background: #2DCF01;
-    border: 0.4vh solid #000000;
-    border-radius: 50%;
 }
-.passo3 button{
+.passo3.passos{
     top:2vh;
     left:57vw;
-    box-sizing: border-box;
-    position: absolute;
-    width: 5vw;
-    height: 10vh;
-    background: #2DCF00;
-    border: 0.12vh solid #000000;
-    border-radius: 50%;
 }
 /*número dos passos (1 a 3)*/
 .number{
@@ -112,28 +102,28 @@
 }
 .p1.number{
     position:relative;
-    left:-0.10vw;
-    top:-0.2vh;
+    left:1.9vw;
+    top:1.5vh;
 }
 .p2.number{
     position:relative;
-    left:-0.10vw;
-    top:-0.2vh;
+    left:1.9vw;
+    top:1.5vh;
 }
 .p3.number{
     position:relative;
-    left:-0.10vw;
-    top:-0.2vh;
+    left:1.9vw;
+    top:1.5vh;
 }
 .text{
     position:absolute;
 }
-/*cnpj texto e input*/
-.cnpj.text{
+/*razao social texto e input*/
+.razao.text{
     top:21vh;
     left:4vw;
 }
-.cnpj Input {
+.razao Input {
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -143,11 +133,11 @@
     border-radius: 2vh;   
 }
 /*nome fantasia texto e input*/
-.inscricaoEstadual.text{
+.fantasia.text{
     top:31vh;
     left:4vw;
 }
-.inscricaoEstadual input{
+.fantasia input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -156,12 +146,12 @@
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
-/*CEP texto e input*/
-.cep.text{
+/*email texto e input*/
+.email.text{
     top:41vh;
     left:4vw;
 }
-.cep input{
+.email input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -170,22 +160,22 @@
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
-/*n° texto e input*/
-.numero.text{
+/*telefone texto e input*/
+.telefone.text{
     top:51vh;
     left:4vw;
 }
-.numero input{
+.telefone input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
     left: 3.5vw;
     top: 55vh;
     border: 0.12vh solid #000000;
-    border-radius: 2vh;
+    border-radius: 2vh; 
 }
 /*botão prosseguir*/
-.prosseguir button{
+.prosseguir{
     position: relative;
     width: 11vw;
     height: 7vh;
@@ -196,11 +186,5 @@
     box-shadow: 0px 4px 4px #000000;
     border: 0.12vh solid #000000;
     border-radius: 1vh;
-}
-.prosseguir.text{
-    top: -0.5vh;
-    position: center;
     font-size:2vw;
-    left: 1.5vw;
-
 }

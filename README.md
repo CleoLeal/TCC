@@ -40,3 +40,5 @@ ENDEREÇO DAS IMAGENS:
     Ícone user (CLIENTE): https://cdn-icons-png.flaticon.com/512/456/456212.png
 <br>
     Lupa: https://cdn-icons-png.flaticon.com/512/3772/3772344.png
+<br>
+    Logo: https://i.ibb.co/2FCQKwC/logoTNR.png
