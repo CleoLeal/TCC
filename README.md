@@ -29,7 +29,7 @@ ENDEREÇO DAS IMAGENS:
 <br>   
     Fundo - Criar conta: https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1
 <br>    
-    Fundo -  Esqueci senha: https://blog.bodog.com/volei-de-praia/
+    Fundo -  Esqueci senha: https://blog.bodog.com/wp-content/uploads/2020/11/volei-praia.jpg
 <br>   
     Fundo - Criar Conta Cliente: https://regrasdoesporte.com.br/wp-content/uploads/2012/12/regras-volei-de-praia.jpg
 <br>
@@ -38,4 +38,7 @@ ENDEREÇO DAS IMAGENS:
     Ícone senha (CLIENTE E EMPRESA): https://cdn-icons-png.flaticon.com/512/45/45259.png
 <br>    
     Ícone user (CLIENTE): https://cdn-icons-png.flaticon.com/512/456/456212.png
-    
+<br>
+    Lupa: https://cdn-icons-png.flaticon.com/512/3772/3772344.png
+<br>
+    Logo: https://i.ibb.co/2FCQKwC/logoTNR.png

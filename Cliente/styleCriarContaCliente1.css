@@ -28,7 +28,7 @@
     z-index: -1;
 
     display: block;
-    background-image: url('https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1');
+    background-image: url('https://regrasdoesporte.com.br/wp-content/uploads/2012/12/regras-volei-de-praia.jpg');
     width: 100vw;
     height: 100vh;
 
@@ -62,9 +62,9 @@
 /*linha dos passos*/
 .line{
     position: absolute;
-    width: 22vw;
+    width: 15vw;
     height: -1vh;
-    left: 37vw;
+    left: 40vw;
     top: 7vh;
     border: 1px dashed #000000;
     transform: rotate(0.27deg);
@@ -83,16 +83,12 @@
 }
 .passo1.passos{
     top:2vh;
-    left:37vw;
+    left:40vw;
     border: 0.4vh solid #000000;
 }
 .passo2.passos{
     top:2vh;
-    left:47vw;
-}
-.passo3.passos{
-    top:2vh;
-    left:57vw;
+    left:52vw;
 }
 /*número dos passos (1 a 3)*/
 .number{
@@ -110,20 +106,15 @@
     left:1.9vw;
     top:1.5vh;
 }
-.p3.number{
-    position:relative;
-    left:1.9vw;
-    top:1.5vh;
-}
 .text{
     position:absolute;
 }
 /*razao social texto e input*/
-.razao.text{
+.nome.text{
     top:21vh;
     left:4vw;
 }
-.razao Input {
+.nome Input {
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -133,11 +124,11 @@
     border-radius: 2vh;   
 }
 /*nome fantasia texto e input*/
-.fantasia.text{
+.email.text{
     top:31vh;
     left:4vw;
 }
-.fantasia input{
+.email input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -147,11 +138,11 @@
     border-radius: 2vh;
 }
 /*email texto e input*/
-.email.text{
+.telefone.text{
     top:41vh;
     left:4vw;
 }
-.email input{
+.telefone input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -161,11 +152,11 @@
     border-radius: 2vh;
 }
 /*telefone texto e input*/
-.telefone.text{
+.cep.text{
     top:51vh;
     left:4vw;
 }
-.telefone input{
+.cep input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -192,5 +183,4 @@
     position: center;
     font-size:2vw;
     left: 1.5vw;
-
 }

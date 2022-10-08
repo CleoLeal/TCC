@@ -28,7 +28,7 @@
     z-index: -1;
 
     display: block;
-    background-image: url('https://regrasdoesporte.com.br/wp-content/uploads/2012/12/regras-volei-de-praia.jpg');
+    background-image: url('https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1');
     width: 100vw;
     height: 100vh;
 
@@ -52,43 +52,58 @@
 }
 /*logo*/
 .loginbox img{
-    padding: 2vh 2.5vw;
+    padding: 2vh 3.5vw;
     position: relative;
     width: 25vw;
     height: 17vh;
     top: -0.52vh;
-    right: 1;
+    left: -1vw;
 }
 /*linha dos passos*/
 .line{
     position: absolute;
-    width: 15vw;
+    width: 22vw;
     height: -1vh;
-    left: 40vw;
+    left: 37vw;
     top: 7vh;
     border: 1px dashed #000000;
     transform: rotate(0.27deg);
 }
 /*passos de 1 a 3*/
-.passos{
+.passo1 button{
+    top:2vh;
+    left:37vw;
     box-sizing: border-box;
     position: absolute;
     width: 5vw;
     height: 10vh;
-    left: 23.43vw;
-    top: 4.11vh;
     background: #2DCF00;
     border: 0.12vh solid #000000;
     border-radius: 50%;
+    cursor: pointer;
 }
-.passo1.passos{
+.passo2 button{
     top:2vh;
-    left:40vw;
+    left:47vw;
+    box-sizing: border-box;
+    position: absolute;
+    width: 5vw;
+    height: 10vh;
+    background: #2DCF01;
+    border: 0.12vh solid #000000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.passo3{
+    top:2vh;
+    left:57vw;
+    box-sizing: border-box;
+    position: absolute;
+    width: 5vw;
+    height: 10vh;
+    background: #2DCF00;
     border: 0.4vh solid #000000;
-}
-.passo2.passos{
-    top:2vh;
-    left:52vw;
+    border-radius: 50%;
 }
 /*número dos passos (1 a 3)*/
 .number{
@@ -98,10 +113,15 @@
 }
 .p1.number{
     position:relative;
-    left:1.9vw;
-    top:1.5vh;
+    left:-0.10vw;
+    top:-0.2vh;
 }
 .p2.number{
+    position:relative;
+    left:-0.10vw;
+    top:-0.2vh;
+}
+.p3.number{
     position:relative;
     left:1.9vw;
     top:1.5vh;
@@ -109,74 +129,47 @@
 .text{
     position:absolute;
 }
-/*razao social texto e input*/
-.nome.text{
-    top:21vh;
+/*senha e input*/
+.senha.text{
+    top:25vh;
     left:4vw;
 }
-.nome Input {
+.senha Input {
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
     left: 3.5vw;
-    top: 25vh;
+    top: 29vh;
     border: 0.12vh solid #000000;
     border-radius: 2vh;   
 }
-/*nome fantasia texto e input*/
-.email.text{
-    top:31vh;
+/*Confirmar senha texto e input*/
+.confirmar.text{
+    top:40vh;
     left:4vw;
 }
-.email input{
+.confirmar input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
     left: 3.5vw;
-    top: 35vh;
+    top: 44vh;
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
-/*email texto e input*/
-.telefone.text{
-    top:41vh;
-    left:4vw;
-}
-.telefone input{
-    position: absolute; 
-    width: 23vw;
-    height: 4.5vh;
-    left: 3.5vw;
-    top: 45vh;
-    border: 0.12vh solid #000000;
-    border-radius: 2vh;
-}
-/*telefone texto e input*/
-.cep.text{
-    top:51vh;
-    left:4vw;
-}
-.cep input{
-    position: absolute; 
-    width: 23vw;
-    height: 4.5vh;
-    left: 3.5vw;
-    top: 55vh;
-    border: 0.12vh solid #000000;
-    border-radius: 2vh; 
-}
-/*botão prosseguir*/
-.prosseguir button{
+/*botão criar conta*/
+.prosseguir{
     position: relative;
     width: 11vw;
     height: 7vh;
     left: 9vw;
-    top: 45vh;
+    top: 40vh;
+    cursor: pointer;
     background: #2DCF00;
     box-shadow: 0px 4px 4px #000000;
     border: 0.12vh solid #000000;
     border-radius: 1vh;
-    cursor: pointer;
+    font-size:2vw;
 }
 .prosseguir.text{
     top: -0.5vh;
@@ -184,8 +177,4 @@
     font-size:2vw;
     left: 1.5vw;
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> da891155c53c7bd184a8d104e04d35e874ffec98

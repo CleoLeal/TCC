@@ -28,7 +28,7 @@
     z-index: -1;
 
     display: block;
-    background-image: url('https://regrasdoesporte.com.br/wp-content/uploads/2012/12/regras-volei-de-praia.jpg');
+    background-image: url('https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1');
     width: 100vw;
     height: 100vh;
 
@@ -62,9 +62,9 @@
 /*linha dos passos*/
 .line{
     position: absolute;
-    width: 15vw;
+    width: 22vw;
     height: -1vh;
-    left: 40vw;
+    left: 37vw;
     top: 7vh;
     border: 1px dashed #000000;
     transform: rotate(0.27deg);
@@ -83,12 +83,16 @@
 }
 .passo1.passos{
     top:2vh;
-    left:40vw;
+    left:37vw;
+    border: 0.4vh solid #000000;
 }
 .passo2.passos{
     top:2vh;
-    left:52vw;
-    border: 0.5vh solid #000000;
+    left:47vw;
+}
+.passo3.passos{
+    top:2vh;
+    left:57vw;
 }
 /*número dos passos (1 a 3)*/
 .number{
@@ -105,17 +109,21 @@
     position:relative;
     left:1.9vw;
     top:1.5vh;
-    border: 0.5vh solid #000000;
+}
+.p3.number{
+    position:relative;
+    left:1.9vw;
+    top:1.5vh;
 }
 .text{
     position:absolute;
 }
-/* data texto e input*/
-.data.text{
+/*razao social texto e input*/
+.razao.text{
     top:21vh;
     left:4vw;
 }
-.data Input {
+.razao Input {
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -125,11 +133,11 @@
     border-radius: 2vh;   
 }
 /*nome fantasia texto e input*/
-.senha.text{
+.fantasia.text{
     top:31vh;
     left:4vw;
 }
-.senha input{
+.fantasia input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -138,12 +146,12 @@
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
-/* Input confirmar = Senha */
-.confirmarsenha.text{
+/*email texto e input*/
+.email.text{
     top:41vh;
     left:4vw;
 }
-.confirmarsenha input{
+.email input{
     position: absolute; 
     width: 23vw;
     height: 4.5vh;
@@ -152,23 +160,31 @@
     border: 0.12vh solid #000000;
     border-radius: 2vh;
 }
-/*botão criarconta*/
-.criarconta button{
+/*telefone texto e input*/
+.telefone.text{
+    top:51vh;
+    left:4vw;
+}
+.telefone input{
+    position: absolute; 
+    width: 23vw;
+    height: 4.5vh;
+    left: 3.5vw;
+    top: 55vh;
+    border: 0.12vh solid #000000;
+    border-radius: 2vh; 
+}
+/*botão prosseguir*/
+.prosseguir{
     position: relative;
     width: 11vw;
     height: 7vh;
     left: 9vw;
     top: 45vh;
+    cursor: pointer;
     background: #2DCF00;
     box-shadow: 0px 4px 4px #000000;
     border: 0.12vh solid #000000;
     border-radius: 1vh;
-    cursor: pointer;
-}
-.criarconta.text{
-    top: -0.5vh;
-    position: center;
     font-size:2vw;
-    left: 1.5vw;
-
 }
