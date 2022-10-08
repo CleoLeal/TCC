@@ -19,17 +19,17 @@
                 <div class="slogan text" ><p><center>Traga a praia para a cidade.</center></p></div>
                  <!--usuario nome, email input e icone usere-->
                 <div class="usuario text"><p><b>Usuário</b></p></div>
-                <div class="email"><input type="text" name="emailEmpresa" maxlength="40" placeholder="E-mail"></div>
+                <div class="email"><input type="text" maxlength="40" placeholder="E-mail" id="emailEmpresa"></div>
                 <div class="user icon"><img src='https://cdn-icons-png.flaticon.com/512/8175/8175264.png'></div>
                 <!--senha, input senha e icone senha-->
                 <div class="senha text"><p><b>Senha</b></p></div>
-                <div class="senha"><input type="text" name="senhaEmpresa" maxlength="40"></div>
+                <div class="senha"><input type="password" maxlength="40" id="senhaEmpresa"></div>
                 <div class="senha icon"><img src='https://cdn-icons-png.flaticon.com/512/45/45259.png'></div>
                 <!--esqueci senha-->
                 <div class="esqueci text"><u>Esqueci a senha</u></div>
                 <!--botão entrar-->
-                <div class="entrar"><button type="submit"><div class="entrar text">Entrar</div></button>
-                <div class="criar"><button id="criarConta" onclick="criarContaEmpresa()"><div class="criar text"><center>Criar conta</center></div></button></div>
+                <button type="submit" class="entrar" id="btnEntrar" onclick="validar()">Entrar</button>
+                <button type="submit" class="criar" id="btnCriar" onclick="criarContaEmpresa()">Criar Conta</button>
             </div>
             
         </body>
