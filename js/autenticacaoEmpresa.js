@@ -7,7 +7,7 @@ function validar()
 
     if(email=='toquenarede@gmail.com' && senha=='tnr2022')
     {
-        window.location="./../Tcc-homeusuario/home.html";
+        window.location="./../Tcc-homeusuario/home_empresa.html";
     }
     else if(email=='' || senha=='')
     {
