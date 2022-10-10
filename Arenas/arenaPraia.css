@@ -1,0 +1,244 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+/*Fundo verde da barra de pesquisa*/
+.fundo-verde-da-barra-pesquisa{
+    width:198vh;
+    height:9vh;
+    top:40vh;
+    border-radius: 2vh;
+    box-shadow:  0px 2px 4px #000000;
+    border: 0.50vh solid #000000;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(59, 189, 59);
+    padding: 1em;
+}
+
+/*barra de pesquisa texto e input*/
+.pesquisa.text{
+    top:30vh;
+    left:4vw;
+}
+.pesquisar{
+    position:center; 
+    width:42vw;
+    height:5.5vh;
+    left: 20.5vw;
+    top: 10vh;
+    background-color: rgb(255, 255, 255);
+    border: 0.46vh solid #000000;
+    border-radius: 3vh;   
+}
+/*Fundo da barra de pesquisar*/
+  input#pesquisa-bar{
+    margin: 0 auto;
+    width: 48vw;
+    height: 6vh;
+    padding: 1vh;
+    font-size: 1rem;
+    border-radius: 4vh;
+    position:relative; 
+    top:-8vh;
+    left:37%;   
+    border: 0.46vh solid #000000;
+    transform: translate(-50%, -50%);
+    
+   }
+
+/*lupa na barra de pesquisa*/
+
+  .lupa{
+    position: relative;
+    float: right;
+    width: 8vw;
+    height: 10vh;
+    top:-13vh;
+    right:70vh;
+  }
+  /*icone da barra*/
+  .icone-usuario{
+    position: relative;
+    float: right;
+    width: 5vw;
+    height: 9vh;
+    top:-20vh;
+    right:0.1vh;
+    border-radius: 6vh;
+    border: 0.42vh solid #000000;
+    background-color: rgb(255, 255, 255);
+  }
+
+   /*Entrar da barra*/
+  .entrar{
+    font-family:'Oswald', sans-serif;
+    width:43vw;
+    left:80vw; 
+    position: absolute; 
+    top:2.5vh; 
+    letter-spacing: 0vh;
+}
+
+
+  /*button meu perfil*/
+.meuperfil{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 11vw;
+    height: 7vh;
+    left: 5vw;
+    top: -21vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+  
+ /*button Quem Somos*/
+.quemsomos{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 14vw;
+    height: 7vh;
+    left: 22vw;
+    top: -28vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+/*button arenas*/
+.arenas{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 14vw;
+    height: 7vh;
+    left: 40vw;
+    top:-35vh;
+    cursor: pointer;
+    background:#248808;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+  /*button localização*/
+
+.localizacao{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 12vw;
+    height: 7vh;
+    left:58vw;
+    top: -42vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+  /*button de configuração*/
+
+.configuracao{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 12vw;
+    height: 7vh;
+    left: 75vw;
+    top:-49.5vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+/*line1*/
+hr{
+    top:40vh;
+    position: relative;
+    border-color:rgb(163, 160, 160);
+    box-sizing:border-box;
+    width:100%;  
+}
+/*line2*/
+hr{
+    height: 11vh;
+    top: -60vh;
+    position: center;
+    border-color:rgb(163, 160, 160);
+    box-sizing:border-box;
+    width:100%;  
+}
+/*Texto arena do seu Augustinho*/
+
+.arena-do-seu-Algustinho{
+    position: relative;
+    top: -60vh;
+    left: 5vw;
+    font-family: 'Oswald', sans-serif;
+}
+/*Endereço da arena*/
+
+.endereco-arena{
+    position: relative;
+    top:-60vh;
+    left: 5vw;
+    font-family: 'Oswald', sans-serif;
+}
+/*Horários de atendimento da arena*/
+.horarios{
+    position: relative;
+    top:-60vh;
+    left: 5vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Mensagem "Fer
+iados abre das 10:00h até as 22:00h"*/
+
+.feriados{
+    position: relative;
+    top:-56vh;
+    left: 5vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Imagem das arenas do maps*/
+.arenas-maps{
+  position: relative;
+  left: 65vw;
+  top: -97vh;
+  width: 20vw;
+  height: 55vh;
+}
+
+/*button agende seu horário*/
+.agende-seu-horario{
+    position: relative;
+    top:-98vh;
+    left: -1vw;
+    font-family: 'Oswald', sans-serif;
+    width: 26vw;
+    height: 6vh;
+    background-color: #2DCF00;
+    color: rgb(60, 60, 161);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+  
+}
