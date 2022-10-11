@@ -23,13 +23,14 @@ CÁLCULOS:
     tentem sempre ser números "fixos o top e left. Ex: 5,10,15,20
 
 ENDEREÇO DAS IMAGENS:
+<br>
     Fundo - Login cliente: https://www.ubatuba.sp.gov.br/wp-content/uploads/sites/2/2016/11/VDP.jpg
 <br>
     Fundo - Login Empresa: https://minimanual.com/wp-content/uploads/POSICIONES-DEL-VOLEIBOL-5.jpeg
 <br>   
     Fundo - Criar conta: https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1
 <br>    
-    Fundo -  Esqueci senha: https://blog.bodog.com/wp-content/uploads/2020/11/volei-praia.jpg
+    Fundo -  Esqueci senha: https://www.olimpiadatododia.com.br/wp-content/uploads/2019/05/Circuito-Mundial-de-v%C3%B4lei-de-praia-1.jpg
 <br>   
     Fundo - Criar Conta Cliente: https://regrasdoesporte.com.br/wp-content/uploads/2012/12/regras-volei-de-praia.jpg
 <br>
