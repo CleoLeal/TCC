@@ -44,3 +44,8 @@ function criarContaCliente2(){
 function entrarEmpresa1(){
    window.location = "./../Empresa/loginEmpresa.html";
 }
+
+//esqueci a senha
+function esqueciSenha(){
+   window.location = "./../EsqueciSenhaEmpresa/EsqueciSenhaEmpresa.html";
+}

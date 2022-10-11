@@ -136,8 +136,9 @@
 /*text esqueci senha*/
 .esqueci.text{
     position:absolute;
-    top:53.5vh;
+    top:47vh;
     left: 20vw;
+    cursor: pointer;
 }
 /*botão entrar*/
 .entrar{
