@@ -49,3 +49,14 @@ function entrarEmpresa1(){
 function esqueciSenha(){
    window.location = "./../EsqueciSenhaEmpresa/EsqueciSenhaEmpresa.html";
 }
+
+//home do cliente, botão arenas 
+function arenas(){
+   window.location = "./../Arenas/Arenas_praia.html";
+}
+
+
+//Entrar da página arenas 
+function entrar(){
+   window.location = "./../Cliente/loginPage.html";
+}
