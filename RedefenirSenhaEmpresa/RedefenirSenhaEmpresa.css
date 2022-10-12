@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.hiddren, 
+.hiddren *{
+    pointer-events: none;
+    visibility: hidden;
+}
+
+/*Configuração da imagem de fundo*/
+.fundo-tela{
+    position: relative;
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0 ;
+    z-index: -1;
+    display: block;
+    background-image: url('https://blog.bodog.com/wp-content/uploads/2020/11/volei-praia.jpg');
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;  
+}
+
+/*Area branca com as informações*/
+
+.login-box{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    left: 34%;
+    top: 15vh;
+    background-color: #FFFFFF;
+    border: 0.12vh solid #000000;
+    border-radius: 5vh;
+    justify-content: center;
+}
+
+/*Imagem da rede em cima da tela de fundo*/
+.toque-na-rede{
+    padding: 2vh 2.5vw;
+    position: relative;
+    width: 25vw; 
+    height: 17vh; 
+    top: 20vh; 
+    right: -33vw;
+}
+
+/*Texto a diversão da praia no meio da cidade*/
+.a-diversao-da-praia-no-meio-da-cidade{
+    left: 1vw;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vh;
+    width:30vw;
+    font-family: "oswald";
+}
+
+/*icone do usuário do primeiro input*/
+.cadeado{
+    background-color: var(--write);
+    border: 0.1vh solid;
+    border-color: var(--black);
+    border-radius: 27.17px/24.14px;
+    height: 5.2vh;
+    width: 3vw;
+    left: 35.5vw;
+    position: absolute;
+    top: 52.7vh;
+}
+
+/*Texto "nova senha" em cima do input */
+
+.texto-nova-senha{
+    color: var(--black);
+    font-family: var(--font-family-oswald);
+    font-size: var(--font-size-xxxxxs);
+    font-weight: 400;
+    left: 5.1vw;
+    letter-spacing: 0;
+    position: absolute;
+    top: 32.4vh;
+    width: 26vw;
+    font-family: "oswald", sans-serif;    
+}
+
+/*Barra para digitar nova senha*/
+.novaSenha input{
+    position: absolute; 
+    width: 23vw;
+    height: 4.5vh;
+    left: 38.6vw;
+    top: 53vh;
+    border: 0.12vh solid #000000;
+    border-radius: 2vh;
+}
+
+/*Icone do usuário do segundo input*/
+
+.cadeado2{
+    background-color: var(--write);
+    border: 0.1vh solid;
+    border-color: var(--black);
+    border-radius: 27.17px/24.14px;
+    height: 5.2vh;
+    width: 3vw;
+    left: 35.5vw;
+    position: absolute;
+    top: 67.6vh;
+}
+
+/*texto confirme a sua senha em cima do input*/
+
+.texto-confirme-sua-senha{
+    color: var(--black);
+    font-family: var(--font-family-oswald);
+    font-size: var(--font-size-xxxxxs);
+    font-weight: 400;
+    left: 38.9vw;
+    letter-spacing: 0;
+    position: absolute;
+    top: 62.5vh;
+    width: 26vw;
+    font-family: "oswald", sans-serif;
+}
+
+/*Barra confirme sua senha*/
+
+.confirmesuaSenha input{
+    position: absolute; 
+    width: 23vw;
+    height: 4.5vh;
+    left: 38.6vw;
+    top: 68vh;
+    border: 0.12vh solid #000000;
+    border-radius: 2vh;
+
+}
+
+/*Texto e botão redefenir*/
+
+.redefenir-text-button{
+    top: -0.5vh;
+    position: center;
+    font-size:2vw;
+    left: 1.5vw;
+    font-family: "oswald", sans-serif;
+    position: relative;
+    width: 11vw;
+    height: 7vh;
+    left:43vw;
+    top: 60vh;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    cursor: pointer;
+    text-align: center;
+}
