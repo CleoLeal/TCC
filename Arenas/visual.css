@@ -56,10 +56,11 @@ nav {
   }
   
   .link{
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: "oswald";
       font-size: 1.02rem;
       color: black;
       font-weight: bold;
+      cursor: pointer;
   }
 
 
