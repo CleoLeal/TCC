@@ -13,7 +13,7 @@ function validarCliente()
     if(email=='cliente@gmail.com' && senha=='tnr2022')
     {
         //abre a home cliente
-        window.location="./../Tcc-homeusuario/home.html";
+        window.location="./../homeUsuario/home.html";
     }
     else if(email=='' || senha=='')
     {
@@ -39,7 +39,7 @@ function validarEmpresa()
     if(email=='toquenarede@gmail.com' && senha=='tnr2022')
     {
         //abre a home empresa
-        window.location="./../Tcc-homeusuario/home_empresa.html";
+        window.location="./../homeEmpresa/home_empresa.html";
     }
     else if(email=='' || senha=='')
     {
