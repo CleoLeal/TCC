@@ -17,12 +17,9 @@ function prosseguir2Empresa(){
 }
 
 //botão criar conta da página criar conta empresa3
-function criarContaEmpresa2()
-{
+function criarContaEmpresa(){
    window.location = "./../Empresa/loginEmpresa.html";
 }
-
-
 
 //CLIENTE
 
