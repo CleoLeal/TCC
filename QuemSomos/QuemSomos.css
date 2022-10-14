@@ -1,0 +1,370 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+/*Fundo verde da barra de pesquisa*/
+.fundo-verde-da-barra-pesquisa{
+    width:198vh;
+    height:9vh;
+    top:40vh;
+    border-radius: 2vh;
+    box-shadow:  0px 2px 4px #000000;
+    border: 0.50vh solid #000000;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(59, 189, 59);
+    padding: 1em;
+}
+
+/*barra de pesquisa texto e input*/
+.pesquisa.text{
+    top:30vh;
+    left:4vw;
+}
+.pesquisar{
+    position:center; 
+    width:42vw;
+    height:5.5vh;
+    left: 20.5vw;
+    top: 10vh;
+    background-color: rgb(255, 255, 255);
+    border: 0.46vh solid #000000;
+    border-radius: 3vh;   
+}
+/*Fundo da barra de pesquisar*/
+  input#pesquisa-bar{
+    margin: 0 auto;
+    width: 48vw;
+    height: 6vh;
+    padding: 1vh;
+    font-size: 1rem;
+    border-radius: 4vh;
+    position:relative; 
+    top:-8vh;
+    left:37%;   
+    border: 0.46vh solid #000000;
+    transform: translate(-50%, -50%);
+    
+   }
+
+/*lupa na barra de pesquisa*/
+
+  .lupa{
+    position: relative;
+    float: right;
+    width: 80px;
+    height: 80px;
+    top:-14vh;
+    right:80vh;
+  }
+  /*icone da barra*/
+  .icone-usuario{
+    position: relative;
+    float: right;
+    width: 5vw;
+    height: 9vh;
+    top:-20vh;
+    right:-8vh;
+    border-radius: 6vh;
+    border: 0.42vh solid #503f3f;
+    background-color: rgb(255, 255, 255);
+  }
+
+   /*Entrar da barra*/
+  .entrar{
+    font-family:'Oswald', sans-serif;
+    width:43vw;
+    left:80vw; 
+    position: absolute; 
+    top:2vh; 
+    letter-spacing: 0vh;
+}
+
+
+  /*button meu perfil*/
+.meuperfil{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 11vw;
+    height: 7vh;
+    left: 5vw;
+    top: -21vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+  /*button Quem Somos*/
+
+.quemsomos{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 14vw;
+    height: 7vh;
+    left: 22vw;
+    top: -28vh;
+    cursor: pointer;
+    background: #248808;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+/*button arenas*/
+.arenas{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 14vw;
+    height: 7vh;
+    left: 40vw;
+    top:-35vh;
+    cursor: pointer;
+    background:#2DCF00 ;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+  /*button localização*/
+
+.localizacao{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 12vw;
+    height: 7vh;
+    left:58vw;
+    top: -42vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+  /*button mde configuração*/
+
+.configuracao{
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    width: 12vw;
+    height: 7vh;
+    left: 75vw;
+    top:-49.5vh;
+    cursor: pointer;
+    background: #2DCF00;
+    box-shadow: 0px 4px 4px #000000;
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    font-size:2vw;
+    text-align: center;
+}
+/*line1*/
+hr{
+    top:40vh;
+    position: relative;
+    border-color:rgb(163, 160, 160);
+    box-sizing:border-box;
+    width:100%;  
+}
+/*line2*/
+hr{
+    height: 11vh;
+    top: -60vh;
+    position: center;
+    border-color:rgb(163, 160, 160);
+    box-sizing:border-box;
+    width:100%;  
+}
+
+/* Primeira divisao/com o fundo verde*/
+.FundoVerde{
+    background-color: #cBffb9;
+    border: 1vh none;
+    height: 70vh;
+    width: 98.5vw;
+    left: 0.1vw;
+    position: relative;
+    top: -60vh;
+
+}  
+
+/* Texto da primeira imagem com o fundo verde*/
+.Text-PrimeiraParte{
+    left: 40vw;
+    letter-spacing: 0;
+    position: relative;
+    top: -50vh;
+    width: 620vw;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.1vh;
+}
+
+/* Imagem da rede da primeira tela*/
+
+.imagem-rede-de-praia {
+    height: 50vh;
+    width: 28vw;
+    left: 5vw;
+    object-fit: cover;
+    position: relative;
+    top: 6vh;
+}
+
+/* Segunda tela com a imagem no fundo*/
+.FundoPraia {
+    height: 70vh;
+    width: 98.5vw;
+    left: 0.1vw;
+    object-fit: cover;
+    position: relative;
+    top: -60vh;
+    border: 1vh none;
+}
+
+.SegundaParte{
+
+    height: 70vh;
+    width: 98.5vw;
+    left: 0.1vw;
+    object-fit: cover;
+    position: relative;
+    top: 0.2vh;
+}
+
+/* Texto da segunda tela, com a imagem de fundo*/
+.text-SegundaParte {
+    height:100vh;
+    width: 20vw;
+    left: 10vw;
+    letter-spacing: 0;
+    position: relative;
+    top: -130vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.1vh;
+     
+} 
+
+
+/* Terceira tela com os usuarios*/
+.TerceiraParte {
+    background-color: #676767;
+    border: 1vh none;
+    height: 70vh;
+    width: 98.5vw;
+    left: 0.1vw; 
+    position: relative; 
+    top: -60vh; 
+    
+}
+
+/* Icone dos úsuarios da terceira parte*/
+.icone-dos-usuarios {
+    height: 9vh;
+    width: 9vw;
+    left: 3vw; 
+    position: relative; 
+    top: -4vh; 
+    object-fit: cover; 
+   
+
+}
+
+/* Texto da terceira tela com o fundo do usuario*/
+.text-TerceiraParte {
+    width: 50vw;
+    left: 45vw; 
+    position: relative; 
+    top: 10vh; 
+    letter-spacing: 0;
+    object-fit: cover; 
+    font-family:'Oswald', sans-serif;
+    font-size: 3.1vh;
+
+
+}
+
+/* rodape*/
+.rodape{
+    align-items: flex-start;
+    background-color: #1b1b1b;
+    border: 1vh none;
+    display: flex;
+    height: 20vh;
+    min-width: 86.4vw;
+    padding: 4vh 6vw;
+    position: relative; 
+    top: -60vh;
+}
+
+
+/* Elementos da primeira coluna do rodape(Inicio)*/
+
+.inicio-home-localizacao-arenas{
+    letter-spacing: 0;
+    margin-left: 10vw;
+    margin-top: 1vh;
+    min-height: 12vh;
+    width: 10vw;
+    color:white; 
+    font-size: 21px; 
+    font-family:'Oswald', sans-serif;
+
+
+}
+
+/* Elementos do rodape da segunda coluna (Sobre)*/
+
+.sobre-home-localizacao-arenas{
+    letter-spacing: 0;
+    margin-left: 6vw;
+    margin-top: 1vh;
+    min-height: 12vh;
+    width: 10vw;
+    color:white; 
+    font-size: 21px; 
+    font-family:'Oswald', sans-serif;
+
+}
+
+/* Elementos do rodape da segunda coluna (Suporte)*/
+
+.suporte-home-localizacao-arenas{
+    letter-spacing: 0;
+    margin-left: 6vw;
+    margin-top: 1vh;
+    min-height: 12vh;
+    width: 10vw;
+    color:white; 
+    font-size: 21px; 
+    font-family:'Oswald', sans-serif;
+
+}
+
+/* Imagem da bola de vôlei do rodape a esquerda */
+.imagem-volei{
+    height: 18vh;
+    width: 10vw;
+    object-fit: cover;
+    align-self: center;
+    margin-bottom: 1vh;
+    margin-left: 4vw;
+
+
+}
+
+/* Imagem da cortina no rodape */
+.curtina{
+    align-self: center;
+    height: 17vh;
+    width: 8vw;
+    margin-bottom: 1vh;
+    object-fit: cover;
+    margin-left: 10vw;
+}
+
