@@ -17,7 +17,7 @@ html, body{
 
 /*box branca*/
 .loginbox {
-    position: absolute;
+    position: fixed;
     min-width: 30%;
     width: 30%;
     max-width: 100%;
