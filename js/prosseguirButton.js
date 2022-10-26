@@ -1,59 +1,59 @@
 //EMPRESA
 
-//botão criar conta da página login empresa
-function criarContaEmpresa()
-{
-   window.location = "./../Empresa/criarContaEmpresa1.html";
+//funcao esqueci a senha 
+function esqueciSenha(){
+   window.location="./../EsqueciSenhaEmpresa/EsqueciSenhaEmpresa.html";
 }
 
-//botão prosseguir da página criar conta empresa 1
-function prosseguir1Empresa(){
-   window.location = "./../Empresa/criarContaEmpresa2.html";
-}
-
-//botão prosseguir da página criar conta empresa 2
-function prosseguir2Empresa(){
-   window.location = "./../Empresa/criarContaEmpresa3.html";
-}
-
-//botão criar conta da página criar conta empresa3
+//botão criar conta da page login empresa
 function criarContaEmpresa(){
-   window.location = "./../Empresa/loginEmpresa.html";
+   window.location="./../Empresa/criarContaEmpresa1.html";
 }
+
+//botão prosseguir da page criarContaEmpresa1
+function criarConta1Empresa(){
+   window.location="./../Empresa/criarContaEmpresa2.html";
+}
+
+//botão prosseguir na page criarContaEmpresa2
+function criarConta2Empresa(){
+   window.location="./../Empresa/criarContaEmpresa3.html";
+}
+
+//botão criar conta na page criarContaEmpresa3
+function criarConta3Empresa(){
+   window.location="./../Empresa/loginEmpresa.html";
+}
+
+//botão quem somos da home empresa
+function quemSomosEmpresa(){
+   window.location="./../QuemSomos/Quemsomosresponsivo.html";
+}
+
 
 //CLIENTE
 
-//botão criar conta da página login cliente
-function criarContaCliente1()
-{
-   window.location = "./../Cliente/criarContaCliente1.html";
-}
-
-//botão criar conta da página login cliente1
-function prosseguir1Cliente(){
-   window.location = "./../Cliente/criarContaCliente2.html";
-}
-//botão criar conta da página login cliente2
-function criarContaCliente2(){
-   window.location = "./../Cliente/loginPage.html";
-}
-//botão entrar como empresa na página login cliente
+//botão para entrar como cliente na page loginCliente
 function entrarEmpresa1(){
-   window.location = "./../Empresa/loginEmpresa.html";
+   window.location="./../Empresa/loginEmpresa.html";
 }
 
-//esqueci a senha
-function esqueciSenha(){
-   window.location = "./../EsqueciSenhaEmpresa/EsqueciSenhaEmpresa.html";
+//botão criar conta na page loginCliente
+function criarContaCliente1(){
+   window.location="./../Cliente/criarContaCliente1.html";
 }
 
-//home do cliente, botão arenas 
-function arenas(){
-   window.location = "./../Arenas/Arenas_praia.html";
+//botão prosseguir na page criarContaCliente1
+function prosseguir1Cliente(){
+   window.location="./../Cliente/criarContaCliente2.html";
 }
 
+//botão criar conta na page criarContaCliente2
+function criarContaCliente2(){
+   window.location="./../Cliente/loginPage.html";
+}
 
-//Entrar da página arenas 
-function entrar(){
-   window.location = "./../Cliente/loginPage.html";
+//botão quem somos das telas Cliente
+function quemSomosCliente(){
+   window.location="./../QuemSomos/Quemsomosresponsivo.html"
 }
