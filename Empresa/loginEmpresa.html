@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Login</title>
-        </head>
-        <link rel="stylesheet" type="text/css" href="./css/styleLoginEmpresa.css">
-        <body>
-            <!--Imagem de fundo-->
-            <div class="img"></div>
-            <!--box branca-->
-            <div class="loginbox">
-                <!--logo-->
-                <img src='https://i.ibb.co/2FCQKwC/logoTNR.png'>
-                <!--slogan-->
-                <div class="slogan text" ><p><center>Traga a praia para a cidade.</center></p></div>
-                 <!--usuario nome, email input e icone usere-->
-                <div class="usuario text"><p><b>Usuário</b></p></div>
-                <div class="email"><input type="email" maxlength="40" placeholder="E-mail" id="emailEmpresa"></div>
-                <div class="user icon"><img src='https://cdn-icons-png.flaticon.com/512/8175/8175264.png'></div>
-                <!--senha, input senha e icone senha-->
-                <div class="senha text"><p><b>Senha</b></p></div>
-                <div class="senha"><input type="password" maxlength="40" id="senhaEmpresa" placeholder="Mínimo 8 caracteres e Máximo 10"></div>
-                <div class="senha icon"><img src='https://cdn-icons-png.flaticon.com/512/45/45259.png'></div>
-                <!--esqueci senha-->
-                <p class="esqueci text" id="esqueciSenha" onclick="esqueciSenha()"><u>Esqueci a senha</u></p>
-                <!--botão entrar-->
-                <button type="submit" class="entrar" id="btnEntrar" onclick="validarEmpresa()">Entrar</button>
-                <button type="submit" class="criar" id="btnCriar" onclick="criarContaEmpresa()">Criar Conta</button>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Empresa </title>
+    <link rel="stylesheet" href="./css/LoginEmpresa.css">
+</head>
+<body>
+    <div class="img"> </div>
+    <div class="container">
+        <img class="logoimg" src="https://i.ibb.co/2FCQKwC/logoTNR.png">
+        <p>
+            Traga a praia para a cidade
+        </p>
+
+        <div> 
+        <p class="type"> Usúario</p>
+            <div class="containerinput">
+                <label class="label" for="senha">
+                    <img class="labelimg" src="https://cdn-icons-png.flaticon.com/512/8175/8175264.png">
+                </label>
+                
+                <input class="input" type="text"  id="text"> 
             </div>
+            <div> 
+                <p class="type"> Senha </p>
+                    <div class="containerinput2">
+                    <label class="label2" for="novaSenha">
+                        <img class="label2img" src="https://cdn-icons-png.flaticon.com/512/45/45259.png">
+                    </label>
+                    <input class="input2" type="password"  id="password">
+                </div>
+            </div>
+        
+            <a href="#" class="text"> Esqueci minha senha </a> 
             
-        </body>
-    </html>
+            <div class="containerbtn">
+            <button class="btn">
+                Entrar
+            </button>
+            
+            </div>
+        <div class="containerbtn">
+        <button class="btn1">
+            Criar uma conta
+        </button>
+        </div>
+    </div>
+</body>
+</html>
