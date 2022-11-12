@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*body html*/
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'oswald';
+    font-size:1.3vw;
+}
+
+nav {
+    background-color: #2DCF00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .pesquisar-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 600px;
+    background-color: white;
+    height: 40px;
+    gap: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+  }
+  .imgPesq {
+    width: 30px;
+    margin-left: 5px;
+  }
+  
+  .inputPesq {
+    width: 100%;
+    height: auto;
+    font-size: 19px;
+    background-color: transparent;
+    border: none;
+  }
+  .container-links{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+  }
+  .imgPerson{
+      width: 30px;
+  }
+  
+  .link{
+      font-family: "oswald";
+      font-size: 18px;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+.inputPesq:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    height: auto;
+    padding: 15px 0px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    flex-wrap: wrap;
+}
+
+.itens{
+    width: 150px;
+    height: 60px;
+    color: black;
+    border: 2px solid black;
+    background-color: #2DCF00;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 2vh;   
+    transition: 0.4s;   
+}
+
+.itens :hover{
+    color:white;
+}
+
+.linkitens {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none; 
+    color:black; 
+    
+}
+.linkitens :visited{
+    color: black;
+}
+
+.containerDescription{
+    width: 30%;
+    height: 686px;
+    padding: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.description{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.link1{
+    width: 450px;
+    height: 60px;
+    color: black;
+    border: 1px solid black;
+    background-color: #2DCF00;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 3vh;   
+    transition: 0.4s;   
+}
