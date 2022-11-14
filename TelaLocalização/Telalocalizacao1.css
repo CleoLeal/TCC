@@ -107,9 +107,9 @@ nav {
 }
 
 .containerDescription{
-    width: 30%;
-    height: 686px;
-    padding: 90px;
+    width: 100%;
+    height: 690px;
+    padding: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -119,15 +119,22 @@ nav {
     font-size: 1.3rem;
     font-weight: bold;
 }
-.link1{
-    width: 450px;
-    height: 60px;
-    color: black;
-    border: 1px solid black;
-    background-color: #2DCF00;
-    display:flex;
-    justify-content: center;
-    align-items: center; 
-    border-radius: 3vh;   
-    transition: 0.4s;   
+/*botão em clicar*/
+.clicar1 button{
+    position: relative;
+    width: 40vw;
+    height: 7vh;
+    left: 28vw;
+    top: 10vh;
+    background: #2DCF00;    
+    border: 0.12vh solid #000000;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.button.text{
+    top: -0.5vh;
+    position: center;
+    font-size:2vw;
+    left: 1.5vw;
+
 }
