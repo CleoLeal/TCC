@@ -105,36 +105,61 @@ nav {
 .linkitens :visited{
     color: black;
 }
-
-.containerDescription{
-    width: 100%;
-    height: 690px;
-    padding: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
 .description{
     font-size: 1.3rem;
     font-weight: bold;
 }
-/*botão em clicar*/
-.clicar1 button{
-    position: relative;
-    width: 40vw;
-    height: 7vh;
-    left: 28vw;
-    top: 10vh;
-    background: #2DCF00;    
-    border: 0.12vh solid #000000;
-    border-radius: 1vh;
-    cursor: pointer;
+.containerbtn{
+display: flex;
+justify-content: center;
+align-items: center;
 }
-.button.text{
-    top: -0.5vh;
-    position: center;
-    font-size:2vw;
-    left: 1.5vw;
-
+.btn{
+display: block;
+margin: 14px 0px 20px;
+background: #2DCF00;
+box-shadow: 0px 4px 4px #000000;
+border: 1px solid #000000;
+border-radius: 10px;
+cursor: pointer;
+width: 300px;
+padding: 7px;
+font-size: 22px;
+font-weight: bold;
+justify-content: center;
+align-items: center;
+}
+.btn1{
+display: block;
+margin: 10px 7px;
+background-color: #000000;
+color: #ffffff;
+box-shadow: 0px 4px 4px #000000;
+border: 1px solid #000000;
+border-radius: 10px;
+cursor: pointer;
+width: 205px;
+padding: 5px;
+font-size: 15px;
+justify-content: center;
+align-items: center;  
+font-weight: bold;
+}
+@media (max-width:410px){
+.container, .process{
+    width: 90%;
+}    
 }
