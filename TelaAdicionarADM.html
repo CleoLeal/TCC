@@ -4,81 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Tela Adicionar ADM</title>
-      <link rel="stylesheet" type="text/css" href="TelaAdicionarADM.css">
+       <title>Adicionar ADM</title>
+         <link rel="stylesheet" type="text/css" href="TelaAdicionarADM.css" >
 </head>
-<body>
-   <header>
-   <!--Fundo verde da barra de pesquisa-->
-   <div class="fundo-verde-da-barra-pesquisa">
-   <!--menu da barra de pesquisa-->
-   <div class="menu">
-   <img class="menu" src="https://cdn.animaapp.com/projects/6335eee71f9ca8e2d224bbe4/releases/6335f51db72f1a2d670ac064/img/menu@2x.png" alt="menu">
-   </div>
-   </div>
-   <!--barra de pesquisa texto e input-->
-   <form>
-   <input type="text" id="pesquisa-bar" placeholder="Pesquisar">
-   <a href="#"><img class="pesquisa-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
-   </form>
-   <!--icone da barra-->
-   <div class="icon-volei">
-   <img class="volei-1" src="file:///C:/Users/rayss/Downloads/user_empresa.png" alt="volei 1"/>
-   </div>
-   <!--Seja Bem Vindo da barra-->
-   <div class="bemvindo">
-   <h1>Seja Bem Vindo, Empresa</h1>
-   </div>
-   <!--button embaixo da barra-->
-   <!--line1-->
-   <hr />
-   <div class="buttondabarra">
-   <div class="meuperfil">Meu perfil</div>
-   <div class="quemsomos">Quem Somos?</div> 
-   <div class="adicionaradm">Adicionar ADM</div>
-   <div class="minhasarenas">Minhas Arenas</div>
-   <div class="configuracao">Configuração</div>
-   </div>
-   <!--line2-->
-   <hr />
-   </div>
-   <!--box branca-->
-   <div class="loginbox"></div>
-   <!--name e input-->
-   <div class="nome text">
-   <!--nome text-->
-   <h1>Nome:</h1>
-   </div> 
-   <div class="nome caixa"><input type="text" name="nome" maxlength="40" id="nome" ></div>
-   <!--emailempresa e input-->
-   <div class="emailempresa text">
-   <!--emailempresa text-->
-   <h1>Email Empresa:</h1>
-   </div>
-   <div class="emailempresa"><input type="text" name="emailempresa" maxlength="40" id="emailempresa" ></div>
-     <!--senha e input-->
-     <div class="senha text">
-     <!--senha text-->
-     <h1>Senha:</h1>
-     </div>
-     <div class="senha">
-     <input type="password" name="senha" maxlength="10">
-     </div>
-    <div class="criarconta"><button onclick="criarconta2()" id="criarconta2" >
-    <div class="criarconta text">Criar Conta</div>
-    </button>
-    </div>
-    <!--icone user1-->
-    <div class="icon user1">
-    <img class="icon user1" src="file:///C:/Users/rayss/Downloads/user%201.png" alt="icon user1"/>
-    </div>
-    <!--icone user2-->
-    <div class="icon user2">
-    <img class="icon user2" src="file:///C:/Users/rayss/Downloads/user%201.png" alt="icon user2"/>
-    </div>
-    <!--icone3-->
-    <div class="icon3">
-    <img class="icon3" src="file:///C:/Users/rayss/Downloads/lock%201.png" alt="icon3"/>
-    </div>
-</header>
- </body>
+    <body>
+        <nav>
+            <div class="pesquisar-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/3772/3772344.png" alt="" class="imgPesq">
+                  <input type="text" placeholder="Pesquisar" class="inputPesq">
+            </div>
+            <div class="container-links">
+                <a class="text">Seja Bem vindo,Empresa</a>
+                <img class="labelimg" src="https://cdn-icons-png.flaticon.com/512/8175/8175264.png">
+            </div>
+        </nav>
+        
+        
+        <div class="container">
+            <div class="itens">
+                <a href="" class="linkitens">Meu Perfil</a>
+            </div>
+            <div class="itens">
+                <a href="" class="linkitens">Quem somos</a>
+            </div>
+            <div class="itens">
+                <a href="" class="linkitens">Adicionar ADM</a>
+            </div>
+            <div class="itens">
+                <a href="" class="linkitens">Minhas Arenas </a>
+            </div>
+            <div class="itens">
+                <a href="" class="linkitens">Configuração</a>
+            </div>
+        </div>
+
+        <body>
+          <div class="body.login"> </div>
+          <div class="container2">
+              <div> 
+              <p class="type">Nome</p>
+              <div class="containerinput">
+                  <label class="label" for="senha">
+                    <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="" class="imgPerson">
+                  </label>
+                  
+                  <input class="input" type="text"  id="text"> 
+              </div>
+              <div> 
+                  <p class="type">Email Empresa</p>
+                  <div class="containerinput">
+                      <label class="label" for="senha">
+                        <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="" class="imgPerson">
+                      </label>
+                      <input class="input" type="text"  id="text"> 
+                  </div> 
+                  <div> 
+                    <p class="type"> Senha </p>
+                        <div class="containerinput2">
+                         <label class="label2" for="novaSenha">
+                             <img class="label2img" src="https://cdn-icons-png.flaticon.com/512/45/45259.png">
+                          </label>
+                        <input class="input2" type="password"  id="password">
+                    </div>
+                </div>  
+              <div class="containerbtn">
+              <button class="btn">
+                  Criar Conta
+              </button> 
+              </div>
+              </div>
+          </div>
+      </body>
+</html>

@@ -1,303 +1,223 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-/*Fundo verde da barra de pesquisa*/
-.fundo-verde-da-barra-pesquisa{
-    width:208vh;
-    height:9vh;
-    top:40vh;
-    border-radius: 2vh;
-    box-shadow:  0px 2px 4px #000000;
-    border: 0.50vh solid #000000;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(59, 189, 59);
-    padding: 1em;
-}
-/*menu da barra de pesquisa*/
-.menu{
-    width: 9vh;
-    height: 9vh;
-    align-items: center;
-}
-/*barra de pesquisa texto e input*/
-.pesquisa.text{
-    top:30vh;
-    left:4vw;
-}
-.pesquisar{
-    position:center; 
-    width:42vw;
-    height:5.5vh;
-    left: 20.5vw;
-    top: 10vh;
-    background-color: rgb(255, 255, 255);
-    border: 0.46vh solid #000000;
-    border-radius: 3vh;   
-}
-
-.pesquisa-container{
-    width: 490px;
-    display: block;
+/*body html*/
+*{
     margin: 0 auto;
-    left:1.5vw;
-  }
-  
-  input#pesquisa-bar{
-    margin: 0 auto;
-    width: 48vw;
-    height: 6vh;
-    padding: 1vh;
-    font-size: 1rem;
-    border-radius: 4vh;
-    position:absolute; 
-    top:9%;
-    left:37%;   
-    border: 0.46vh solid #000000;
-    transform: translate(-50%, -50%)
-   }
-  .pesquisa-icon{
-    position: relative;
-    float: right;
-    width: 80px;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'oswald';
+    font-size:1.3vw;
+}
+nav {
+    background-color: #2DCF00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 80px;
-    top:-14vh;
-    right:80vh;
+    border: 3px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
   }
-  /*icone da barra*/
-  .volei-1{
-    position: relative;
-    float: right;
-    width: 79px;
-    height: 72px;
-    top:-14vh;
-    right:-8vh;
-    border-radius: 6vh;
-    border: 0.42vh solid #000000;
-    background-color: rgb(255, 255, 255);
-  }
-
-.bemvindo{
-    font-family:'Oswald', sans-serif;
-    width:43vw;
-    left:65vw; 
-    position: absolute; 
-    top:1vh; 
-    letter-spacing: 0vh;
-}
-/*button embaixo da barra*/
-.meuperfil{
-    font-family:'Oswald', sans-serif;
-    position: relative;
-    width: 11vw;
-    height: 7vh;
-    left: 5vw;
-    top: -21vh;
-    cursor: pointer;
-    background: #2DCF00;
-    box-shadow: 0px 4px 4px #000000;
-    border: 0.12vh solid #000000;
-    border-radius: 1vh;
-    font-size:2vw;
-    text-align: center;
-}
-.quemsomos{
-    font-family:'Oswald', sans-serif;
-    position: relative;
-    width: 12vw;
-    height: 7vh;
-    left: 22vw;
-    top: -28vh;
-    cursor: pointer;
-    background: #2DCF00;
-    box-shadow: 0px 4px 4px #000000;
-    border: 0.12vh solid #000000;
-    border-radius: 1vh;
-    font-size:2vw;
-    text-align: center;
-}
-.adicionaradm{
-    font-family:'Oswald', sans-serif;
-    position: relative;
-    width: 12vw;
-    height: 7vh;
-    left: 40vw;
-    top:-35vh;
-    cursor: pointer;
-    background: #248808;
-    box-shadow: 0px 4px 4px #000000;
-    border: 0.12vh solid #000000;
-    border-radius: 1vh;
-    font-size:2vw;
-    text-align: center;
-}
-.minhasarenas{
-    font-family:'Oswald', sans-serif;
-    position: relative;
-    width: 12vw;
-    height: 7vh;
-    left:58vw;
-    top: -42vh;
-    cursor: pointer;
-    background: #2DCF00;
-    box-shadow: 0px 4px 4px #000000;
-    border: 0.12vh solid #000000;
-    border-radius: 1vh;
-    font-size:2vw;
-    text-align: center;
-}
-.configuracao{
-    font-family:'Oswald', sans-serif;
-    position: relative;
-    width: 12vw;
-    height: 7vh;
-    left: 75vw;
-    top:-50vh;
-    cursor: pointer;
-    background: #2DCF00;
-    box-shadow: 0px 4px 4px #000000;
-    border: 0.12vh solid #000000;
-    border-radius: 1vh;
-    font-size:2vw;
-    text-align: center;
-}
-/*line1*/
-hr{
-    top:40vh;
-    position: relative;
-    border-color:rgb(163, 160, 160);
-    box-sizing:border-box;
-    width:100%;  
-}
-/*line2*/
-hr{
-    height: 11vh;
-    top: -60vh;
-    position: center;
-    border-color:rgb(163, 160, 160);
-    box-sizing:border-box;
-    width:100%;  
-}
-/*box branca*/
-.loginbox {
-    position: absolute;
-    width: 29%;
-    height: 64%;
-    left: 34%;
-    top: 33vh;
-    background-color: #FFFFFF;
-    box-shadow: 2px 4px 4px #000000;
-    border: 0.12vh solid #000000;
-    border-radius: 2vh;
-    justify-content: center;
-}
-/*nome text */
-.nome.text{
-    font-family:'Oswald', sans-serif;
-    font-size:3mm;
-    top:39vh;   
-    left:39vw; 
-    position: absolute;  
-}
-/*emailempresa text */
-.emailempresa.text{
-    font-family:'Oswald', sans-serif;
-    font-size:3mm;
-    top:50vh;   
-    left:39vw; 
-    position: absolute;  
-}
-/*senha text */
-.senha.text{
-    font-family:'Oswald', sans-serif;
-    font-size:3mm;
-    top: 64vh;   
-    left:39vw; 
-    position: absolute;  
-}
-
-/*nome e input*/
-.nome Input {
-    position: absolute; 
-    width: 23vw;
-    height: 5.5vh;
-    left: 36.5vw;
-    top: 44vh;
-    border: 0.12vh solid #000000;
-    border-radius: 2vh;   
-}
-.emailempresa input{
-    position: absolute; 
-    width: 23vw;
-    height: 5.5vh;
-    left: 36.5vw;
-    top: 58vh;
-    border: 0.12vh solid #000000;
-    border-radius: 2vh;
-}
-/*senha e input*/
-.senha input{
-    position: absolute; 
-    width: 23vw;
-    height: 5.5vh;
-    left: 36.5vw;
-    top: 71vh;
-    border: 0.12vh solid #000000;
-    border-radius: 2vh;
-}
-/*botão criarconta*/
-.criarconta button{
-    position: relative;
-    width: 13vw;
-    height: 7vh;
-    left: 41vw;
-    top: -7vh;
-    background: #2DCF00;
-    box-shadow: 0px 4px 4px #000000;
-    border: 0.12vh solid #000000;
-    border-radius: 1vh;
-    cursor: pointer;
-}
-.criarconta.text{
-    font-family:'Oswald', sans-serif;
-    top: -0.5vh;    
-    position: center;
-    font-size:2vw;
-    left: 1.5vw;
-}
-/*icone user1*/
-.icon.user1{
-    position: relative;
-    float: right;
-    width: 49px;
-    height: 49px;
-    top:-28vh;
-    right:65vh;
-    border-radius:6vh;
-    background-color: #FFFFFF;
-  }
-/*icone user2*/
-.icon.user2{
-    position: relative;
-    float: right;
-    width: 48px;
-    height: 48px;
-    top:-21vh;
-    right:61vh;
-    border-radius:6vh;
-    background-color: #FFFFFF;
-}
-/*icone3*/
-.icon3{
-    position: relative;
-    width: 52px;
-    height: 54px;
-    top:-15vh;
-    left:10vh;
-    border-radius:6vh;
-    background-color: #FFFFFF;
-}
-
-
-
-
   
+  .pesquisar-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 600px;
+    background-color: white;
+    height: 40px;
+    gap: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+  }
+  .imgPesq {
+    width: 30px;
+    margin-left: 5px;
+  }
+  
+  .inputPesq {
+    width: 100%;
+    height: auto;
+    font-size: 19px;
+    background-color: transparent;
+    border: none;
+  }
+  .container-links{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+  }
+  .imgPerson{
+      width:20px;
+  }
+  
+  .text{
+      font-family: "oswald";
+      font-size: 20px;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+.inputPesq:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    height: auto;
+    padding: 15px 0px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    flex-wrap: wrap;
+}
+
+.itens{
+    width: 150px;
+    height: 60px;
+    color: black;
+    border: 2px solid black;
+    background-color: #2DCF00;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 2vh;   
+    transition: 0.4s;   
+}
+
+.itens :hover{
+    color:white;
+}
+
+.linkitens {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none; 
+    color:black; 
+    
+}
+.linkitens :visited{
+    color: black;
+}
+.labelimg {
+    width: 30px;
+}
+.body.login{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.active{
+border: 2px solid black;
+}
+.container2{
+background-color: white;
+width: 310px;
+height: 419px;
+padding: 10px;
+border-radius: 20px;
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.logoimg{
+width: 100%;
+margin-bottom: 10px;
+}
+p{
+text-align: center;
+font-size: 18px;
+padding: 10px 0px;
+}
+
+.type{
+margin: -15px 10px;
+text-align: left;
+}
+
+.containerinput, .containerinput2{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding: 2px;
+background-color: white;
+gap: 0px;
+border-radius: 20px;
+margin: 10px 0px;
+border: 2px solid black;
+}
+
+.labelimg, .label2img{
+width: 30px;
+}
+.input, .input2{
+width: 100%;
+height: 35px;
+background-color: transparent;
+font-size: 18px;
+border: none;
+}
+.input:focus, .input2:focus{
+box-shadow: 0 0 0 0;
+border: 0 none;
+outline: 0;
+}
+
+.text{
+margin-right: -5px 10px;
+}
+.containerbtn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn{
+display: block;
+margin: 14px 0px 20px;
+background: #2DCF00;
+box-shadow: 0px 4px 4px #000000;
+border: 1px solid #000000;
+border-radius: 10px;
+cursor: pointer;
+width: 200px;
+padding: 8px;
+font-size: 22px;
+font-weight: bold;
+justify-content: center;
+align-items: center;
+}
+
+.btn1{
+display: block;
+margin: 10px 7px;
+background-color: #000000;
+color: #ffffff;
+box-shadow: 0px 4px 4px #000000;
+border: 1px solid #000000;
+border-radius: 10px;
+cursor: pointer;
+width: 205px;
+padding: 5px;
+font-size: 15px;
+justify-content: center;
+align-items: center;  
+font-weight: bold;
+
+}
+
+@media (max-width:410px){
+.container, .process{
+    width: 90%;
+}    
+}
