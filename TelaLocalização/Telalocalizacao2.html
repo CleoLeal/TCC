@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Localização</title>
-         <link rel="stylesheet" type="text/css" href="Telalocalizacao1.css" >
+         <link rel="stylesheet" type="text/css" href="Telalocalizacao2.css" >
 </head>
     <body>
         <nav>
@@ -37,9 +37,24 @@
                 <a href="" class="linkitens">Configuração</a>
             </div>
         </div>
+        <script>
+            const confirmAction = () => {
+                const response = confirm("Are you sure you want to do that?");
 
-        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-            <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-              style="border:0" allowfullscreen></iframe>
-          </div>
+                if (response) {
+                    alert("Ok was pressed");
+                } else {
+                    alert("Cancel was pressed");
+                }
+            }
+        </script>
+        <div class="containerbtn">
+            <button id="mensagem" class="btn" value="click"  ondblclick="alert('Você permitindo sua localização,o app terá acesso a sua localização real!')">Click aqui para permitir acesso a sua Localização!</button>
+        </div>
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                  style="border:0" allowfullscreen></iframe>
+              </div>
+        </div>
+    </body>
 </html>
