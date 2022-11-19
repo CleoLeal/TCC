@@ -7,7 +7,8 @@
        <title>Quem Somos reponsivo</title>
          <link rel="stylesheet" type="text/css" href="Quemsomosresponsivo.css" >
 </head>
-    <body>
+    <script src="./passos.js"></script>  
+    <body vlink="white">
         <nav>
             <div class="pesquisar-container">
                 <img src="https://cdn-icons-png.flaticon.com/512/3772/3772344.png" alt="" class="imgPesq">
@@ -15,7 +16,7 @@
             </div>
             <div class="container-links">
                 <a href="#" class="link" id="linkEntrar"onclick="entrar()">ENTRAR</a>
-                <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="" class="imgPerson">
+                <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="" onclick="entrar()" class="imgPerson">
             </div>
         </nav>
         
@@ -25,7 +26,7 @@
                 <a href="" class="linkitens">Meu Perfil</a>
             </div>
             <div class="itens">
-                <a href="" class="linkitens">Quem somos</a>
+                <a href="" onclick="quemSomos()"class="linkitens">Quem somos</a>
             </div>
             <div class="itens">
                 <a href="" class="linkitens">Arenas</a>
@@ -49,6 +50,7 @@
                 dados de possíveis torneios e sobre aluguéis das arenas.</p>
         </div>
         <div class="containerDescriptionBG">
+            <img class="containerDescriptionBGimg">
             <p class="descriptionBG">Para os atletas , nós facilitamos a comunicação deles com as informações fornecidas<br>
                  como informações da mesma <br>
                 facilitar a entrada nas arenas, pois o seu cadastro já foi feito pelosite. <br> 
@@ -58,7 +60,7 @@
                 no mundo dos esportes.</p>
         </div>
         <div class="containerDescriptionUser">
-            <div class="containerimg">
+            <div class="containerimgUser">
                 <img class="imgDescription" src="https://cdn-icons-png.flaticon.com/512/681/681494.png">
             </div>
             <p class="descriptionUser">O objetivo é oferecer para as pessoas o conhecimento de novos esportes, <br>
@@ -66,24 +68,47 @@
                 encontre uma arena que te deixe encantado. </p>
         </div>
         <footer>
-            <img class="imgFooter" src="https://cdn.animaapp.com/projects/6335eee71f9ca8e2d224bbe4/releases/6335f51db72f1a2d670ac064/img/volei-1@2x.png">
+            <img class="imgFooterTNR" src="https://i.ibb.co/2FCQKwC/logoTNR.png">
             <div class="containerlink">
                 <p class="footertitle">Início</p>
-                <p class="footer-itens">Home</p>
-                <p class="footer-itens">Localização</p>
-                <p class="footer-itens">Arenas</p>
+                <a href="" class="footer-itens">Home</a>
+                <a href="" class="footer-itens">Localização</a>
+                <a href="" class="footer-itens">Arenas</a>
             </div>
             <div class="containerlink">
                 <p class="footertitle">Sobre</p>
-                <p class="footer-itens">Home</p>
-                <p class="footer-itens">Localização</p>
-                <p class="footer-itens">Arenas</p>
+                <a href="" class="footer-itens">Quem Somos</a>
+                <a href="" class="footer-itens">Projeto</a>
+                <a href="" class="footer-itens">Equipe</a>
             </div>
             <div class="containerlink">
-                <p class="footertitle">Suporte</p>
-                <p class="footer-itens">Home</p>
-                <p class="footer-itens">Localização</p>
-                <p class="footer-itens">Arenas</p>
+                <table align="center">
+                    <tr>
+                        <td colspan="2">
+                            <p class="footertitleN">Nós</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.instagram.com/cleo.leal/" class="footer-itens">Cléo</a>
+                        </td>
+                        <td>
+                            <a href="https://www.instagram.com/cristian_silva_tamaxi/" class="footer-itens">Cristian</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.instagram.com/elias__apenas/" class="footer-itens">Elias</a>
+                        </td>
+                        <td>
+                            <a href="https://www.instagram.com/_julliabarross/" class="footer-itens">Julia</a>
+                        </td>
+                    </tr>
+                        <td colspan="2">
+                            <a href="https://www.instagram.com/rayssa_anjos_portugal/" class="footer-itens">Rayssa</a>
+                        </td>
+                    </tr>                    
+                </table>
             </div>
             <img class="imgFooter" src="https://cdn.animaapp.com/projects/6335eee71f9ca8e2d224bbe4/releases/6335f51db72f1a2d670ac064/img/curtains-1@2x.png" alt="">
         </footer>
