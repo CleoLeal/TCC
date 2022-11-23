@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas Feitas</title>
+</head>
+<!--Link CSS-->
+<link rel="stylesheet" type="text/css" href="./css/ReservasFeitas.css">
+
+
+<body vlink="white">
+
+    <!--Barra Pesquisa-->
+    <nav>
+        <div class="pesquisar-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/3772/3772344.png" alt="" class="imgPesq">
+            <input type="text" placeholder="Pesquisar" class="inputPesq">
+        </div>
+        <div class="container-links">
+            <a href="#" class="link" id="linkEntrar" onclick="entrar()">ENTRAR</a>
+            <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="" onclick="entrar()"
+                class="imgPerson">
+        </div>
+    </nav>
+    
+    <!--Barra de Navegação-->
+    <div class="container">
+        <div class="itens">
+            <a href="" class="linkitens">Meu Perfil</a>
+        </div>
+        <div class="itens">
+            <a href="" class="linkitens">Quem somos</a>
+        </div>
+        <div class="itens">
+            <a href="" class="linkitens">Arenas</a>
+        </div>
+        <div class="itens">
+            <a href="" class="linkitens">Localização</a>
+        </div>
+        <div class="itens">
+            <a href="" class="linkitens">Configuração</a>
+        </div>
+    </div>
+
+    <br>
+
+    <!--Texto Explicativo da função da tela-->
+    <h1 class="reservasFt">Reservas feitas</h1>
+    <p class="reservasDesc">Consulte essa página para visualizar e gerenciar todas as reservas que foram feitas em suas arenas</p>
+
+    <hr>
+    <br>
+
+    <!--Tabela com as reservas-->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data Reservada</th>
+                <th>Horário Reservado</th>
+                <th>Até as</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+        <tr>
+            <td>Carlos</td>
+            <td>20/11/2022</td>
+            <td>14:30</td>
+            <td>16:30</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>20/11/2022</td>
+            <td>17:30</td>
+            <td>19:30</td>
+        </tr>
+        <tr>
+            <td>Vanessa</td>
+            <td>21/11/2022</td>
+            <td>12:00</td>
+            <td>14:00</td>
+        </tr>
+        <tr>
+            <td>Jonas</td>
+            <td>23/11/2022</td>
+            <td>10:00</td>
+            <td>12:00</td>
+        </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
