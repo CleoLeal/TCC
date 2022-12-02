@@ -102,6 +102,14 @@ nav {
     color:black; 
     
 }
+  
+.text{
+    font-family: "oswald";
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
 .linkitens :visited{
     color: black;
 }

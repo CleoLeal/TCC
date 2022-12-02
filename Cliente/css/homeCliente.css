@@ -18,9 +18,9 @@ nav {
     border: 3px solid black;
     border-radius: 10px;
     flex-wrap: wrap;
-  }
-  
-  .pesquisar-container {
+}
+
+.pesquisar-container {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -30,36 +30,35 @@ nav {
     gap: 10px;
     border-radius: 30px;
     border: 2px solid black;
-  }
-  .imgPesq {
+}
+.imgPesq {
     width: 30px;
     margin-left: 5px;
-  }
-  
-  .inputPesq {
+}
+
+.inputPesq {
     width: 100%;
     height: auto;
     font-size: 19px;
     background-color: transparent;
     border: none;
-  }
-  .container-links{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
-      font-size: 30px;
-  }
-  .imgPerson{
-      width: 30px;
-  }
-  
-  .link{
-    font-family: "oswald";
+}
+.container-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+.imgPerson{
+    width: 30px;
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.02rem;
     color: black;
     font-weight: bold;
-    cursor: pointer;
 }
 
 
@@ -68,7 +67,13 @@ nav {
     border: 0 none;
     outline: 0;
 }
-
+.text{
+    font-family: "oswald";
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
 .container{
     display:flex;
     justify-content: space-around;
@@ -91,8 +96,7 @@ nav {
     justify-content: center;
     align-items: center; 
     border-radius: 2vh;   
-    transition: 0.4s;
-    cursor: pointer;
+    transition: 0.4s;   
 }
 
 .itens :hover{
@@ -104,14 +108,20 @@ nav {
     font-weight: bold;
     text-decoration: none; 
     color:black; 
+    cursor: pointer;
     
 }
 .linkitens :visited{
     color: black;
 }
 .titulo{
-    margin: 20px 0px 0px 0px;
-    font-size: 1.3rem;
+    margin: 1rem 0px 0px 0px;
+    font-size: 30px;
+    text-align:left;
+}
+.titulo2{
+    margin: 1rem 0px 0px 0px;
+    font-size: 30px;
     text-align:left;
 }
 
@@ -120,24 +130,88 @@ nav {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 300px;
-
+    height: 520px;
 }
 
-.divarena{
+.divarena, .divarena2{
     width: 350px;
     height: 200px;
     border-radius: 2vh;
     padding-top: 20px;
     cursor: pointer;
     transition: 0.4s;
-
 }
-.divarena :hover{
+.divarena2:hover{
     transform: scale(1.1);
 }
 
-.arenaimg{
+.divarena:hover{
+    transform: scale(1.1);
+}
+.arenaimg, .arenaimg2{
     width: 100%;
     border-radius: 2vh;
+}
+
+.containerTorneio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 520px;
+}
+.img, .img2 {
+    width: 100%;
+    height: 200px;
+    border-radius: 2vh;
+    transition: 0.4s;
+}
+
+@media (max-width: 930px) {
+    nav{
+        height: auto;
+        padding: 20px 0px;
+        justify-content: center;
+    }
+    .pesquisar-container{
+        width: 90%;
+    }
+    .containerarena{
+        gap: 6rem;
+        height: auto;
+    }
+}
+@media (max-width: 734px) {
+    .container{
+        gap: 10px;
+    }
+}
+@media (max-width: 590px) {
+    .container{
+        gap: 10px;
+    }
+    .containerarena{
+        flex-direction: column;
+        gap: 10rem;
+    }
+}
+@media (max-width: 386px) {
+    .containerarena{
+        flex-direction: column;
+        gap: 18rem;
+    }
+    .titulo2{
+        margin: 10rem 0px 0px 16px;
+    }
+    .divarena{
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 342px) {
+    .container-links{
+        gap: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
 }
