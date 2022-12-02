@@ -27,17 +27,17 @@
             <p class="type">Data de Nascimento:</p>
             <div class="containerinput">
                 
-                <input class="input" type="date" name="data" id="data" >
+                <input class="input" type="date" name="data" id="data" required>
 
             </div>
             <p class="type">Senha:</p>
             <div class="containerinput1">
-                <input class="input1" type="password"  name="senha" id="senha">
+                <input class="input1" type="password"  name="senha" id="senha" required>
 
             </div>
             <p class="type">Confirmar Senha:</p>
             <div class="containerinput2">
-                <input class="input2" type="password" name="confirmar" id="confirmar">
+                <input class="input2" type="password" name="confirmar" id="confirmar" required>
 
             </div>
 

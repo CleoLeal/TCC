@@ -20,7 +20,7 @@
                 <input type="text" placeholder="Pesquisar" class="inputPesq">
             </div>
             <div class="container-links">
-                <p class="link" id="linkEntrar" >ENTRAR</p>
+                <p class="link" id="linkEntrar" >Olá, Seja bem vindo!</p>
                 <a href="./../../toquenarede/Cliente/LoginPage.php"><img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="" class="imgPerson"></a>
             </div>
         </nav>
@@ -40,7 +40,7 @@
                 <a href="./../../toquenarede/Cliente/Telalocalizacao1.php" class="linkitens">Localização</a>
             </div>
             <div class="itens">
-                <a href="" class="linkitens">Configuração</a>
+                <a href="./../../toquenarede/emConstrucao.php" class="linkitens">Configuração</a>
             </div>
         </div>
 
@@ -56,10 +56,10 @@
         <div class="containerInputs">
             <form action="./autenticacoes/reservar.php" method="POST">
                 <div class="containerinput">
-                    <input class="input" type="date"  id="data" name="data">
+                    <input class="input" type="date"  id="data" name="data" required>
                 </div>
                 <div class="containerinput">
-                    <input class="input" type="time"  id="hora" name="hora">
+                    <input class="input" type="time"  id="hora" name="hora" required>
                 </div>
                 <div class="containerbtn">
                     <button class="btn">

@@ -26,22 +26,22 @@
             <p class="type">Nome:</p>
             <div class="containerinput">
                 
-                <input class="input" type="text"  name="nome" id="nome" required >
+                <input class="input" type="text"  name="nome" id="nome" placeholder="Ex: Roberto Carlos"required>
 
             </div>
             <p class="type">Email:</p>
             <div class="containerinput1">
-                <input class="input1" type="email"  name="email" id="email" placeholder="Ex:suaempresa@gmail.com" required>
+                <input class="input1" type="email"  name="email" id="email" placeholder="Ex:seuemail@gmail.com" required>
 
             </div>
             <p class="type">Telefone:</p>
             <div class="containerinput2">
-                <input class="input2" type="text" name="telefone"  id="telefone" placeholder="Ex:00000-000" required>
+                <input class="input2" type="text" name="telefone"  id="telefone" placeholder="Somente números" required>
 
             </div>
             <p class="type">CEP:</p>
             <div class="containerinput3">
-                <input class="input3" type="text" name="cep" id="cep" placeholder="Ex:00000-000" required>
+                <input class="input3" type="text" name="cep" id="cep" placeholder="Somente números" required>
 
             </div>
 

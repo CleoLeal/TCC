@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login Page </title>
+        <title>Login Page</title>
     <link rel="stylesheet" href="./css/LoginPage.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -22,7 +22,7 @@
         </p>
 
         <div>
-        <form action="./autenticacoes/autenticarLogin.php" method="POST">
+        <form action="./autenticacoes/autenticacoes.php" method="POST">
             <p class="type"> Usúario: </p>
             <div class="containerinput">
                 <label class="label" for="senha">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         
-            <a href="./../../toquenarede/esqueciSenha/tipodeConta.php" class="text"> Esqueci minha senha </a> 
+            <a href="./../esqueciSenha/tipodeConta.php" class="text"> Esqueci minha senha </a> 
             
             <div class="containerbtn">
             <button class="btn">

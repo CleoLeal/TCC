@@ -37,7 +37,7 @@
                 <a href="./Telalocalizacao1.php" class="linkitens">Localização</a>
             </div>
             <div class="itens">
-                <a href="" class="linkitens">Configuração</a>
+                <a href="./../../toquenarede/emConstrucao.php" class="linkitens">Configuração</a>
             </div>
         </div>
         
