@@ -24,7 +24,7 @@ $(document).ready(function() {
                         }
                     } //end if.
                     else {
-                        //CEP pesquisado não foi encontrado.
+                        //email pesquisado não foi encontrado.
                         limpa_formulário_email();
                         alert("Erro ao consultar e-mail.");
                     }
