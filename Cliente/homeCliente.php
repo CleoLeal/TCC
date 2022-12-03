@@ -25,7 +25,7 @@
                 <a href="" class="linkitens">Meu Perfil</a>
             </div>
             <div class="itens">
-                <a href="./../../toquenarede/quemSomos/quemSomosCliente.php"><p class="linkitens" ">Quem Somos</p></a>
+                <a href="./../../toquenarede/quemSomos/quemSomosCliente.php" class="linkitens">Quem Somos</a>
             </div>
             <div class="itens">
                 <a href="./arenasCliente.php" class="linkitens">Arenas</a>
