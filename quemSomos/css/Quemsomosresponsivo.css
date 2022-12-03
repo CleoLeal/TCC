@@ -211,17 +211,13 @@ footer{
 }
 .imgFooterTNR{
     width: 300px;
-    height: 150px;
+    height: auto;
 }
 .containerlink{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.footer-itensR{
-    width: 50% !important; /*Importante manter o !important rs*/
-    margin: 20%;
 }
 .footertitle{
     font-weight: bold;
@@ -234,7 +230,10 @@ footer{
     margin: auto;
     left:20px;
 }
-
+.footer-itensR{
+    width: 50% !important; /*Importante manter o !important rs*/
+    margin: 20%;
+}
 @media (max-width: 842px){
     .containerDescription{
         justify-content: center;

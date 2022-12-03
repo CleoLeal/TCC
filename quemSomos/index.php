@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,39 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Quem Somos</title>
-         <link rel="stylesheet" type="text/css" href="./css/quemsomos.css" >
+         <link rel="stylesheet" type="text/css" href="./css/quemSomos.css" >
 </head>
     <script src="./passos.js"></script>  
     <body link="white" vlink="#2DCF00">
         <nav>
-             <div class="container-links">
+            <div class="container-links">
                 <a href="./../Cliente/LoginPage.php" class="link" id="linkEntrar">ENTRAR</a>
-                <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="" class="imgPerson">
+                <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt=""class="imgPerson">
             </div>
         </nav>
-        
+        </div>
         <div class="containerDescription">
             <div class="containerimg">
                 <img class="imgDescription" src="https://cdn.animaapp.com/projects/6335eee71f9ca8e2d224bbe4/releases/6335f51db72f1a2d670ac064/img/volei-de-praia-2@2x.png">
             </div>
-            <p class="description">Uma aplicação web para facilitar as empresas <br> 
-                os que oferecem as arenas e para atletas que praticam <br>
+            <p class="description">Uma aplicação web para facilitar para as empresas <br> 
+                que oferecem as arenas, e para os atletas que praticam <br>
                 esportes com um ar de praia.  <br> 
-                Para as empresas, nós possibilitamos a facilidade de divulgar o seu serviço. <br> 
-                Dando as datas e horários de funcionamento, o valor do seu cardápio, <br>
+                Para as empresas, nós possibilitamos a facilidade de divulgar o seu serviço, <br> 
+                dando as datas e horários de funcionamento, o valor do seu cardápio, <br>
                 dados de possíveis torneios e sobre aluguéis das arenas.</p>
         </div>
         <div class="containerDescriptionBG">
-            <p class="descriptionBG">Para os atletas , nós facilitamos a comunicação deles com as informações fornecidas<br>
-                 como informações da mesma <br>
-                facilitar a entrada nas arenas, pois o seu cadastro já foi feito pelosite. <br> 
+            <img class="containerDescriptionBGimg">
+            <p class="descriptionBG">Para os atletas, nós facilitamos a comunicação com as arenas<br>
+                por meio das informações da mesma. <br>
+                Facilitamos a entrada nas arenas, pois o seu cadastro já foi feito pelo site. <br> 
                 Nosso site é para que todos tenham facilidade para conhecer mais <br>
-                o mundo dos esportes, então nossa equipe está pronta para deixar o site <br>
-                mais acessível para todos, pois esperamos um aumento drástico  <br>
+                esportes, então nossa equipe está pronta para deixar eles <br>
+                mais acessíveis para todos, esperando um aumento drástico  <br>
                 no mundo dos esportes.</p>
         </div>
         <div class="containerDescriptionUser">
-            <div class="containerimg">
+            <div class="containerimgUser">
                 <img class="imgDescription" src="https://cdn-icons-png.flaticon.com/512/681/681494.png">
             </div>
             <p class="descriptionUser">O objetivo é oferecer para as pessoas o conhecimento de novos esportes, <br>
@@ -79,7 +79,7 @@
                             <a href="https://www.instagram.com/elias__apenas/" target="_blank" class="footer-itens">Elias</a>
                         </td>
                         <td>
-                            <a href="https://www.instagram.com/_julliabarross/" target="_blank"  class="footer-itens">Julia</a>
+                            <a href="https://www.instagram.com/_julliabarross/" target="_blank"  class="footer-itens">Jullia</a>
                         </td>
                     </tr>
                     <tr>
