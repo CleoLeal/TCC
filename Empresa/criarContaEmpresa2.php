@@ -33,18 +33,18 @@
             <p class="type">CNPJ:</p>
             <div class="containerinput">
                 
-                <input class="input" type="text" name="cnpj" id="cnpj" placeholder="Ex:000.000.000/0000-00">
+                <input class="input" type="text" name="cnpj" id="cnpj" placeholder="Somente números" required>
 
             </div>
         
             <p class="type">CEP:</p>
             <div class="containerinput2">
-                <input class="input2" type="text"  name="cep" id="cep" placeholder="Ex:00000-000">
+                <input class="input2" type="text"  name="cep" id="cep" placeholder="Somente números" required>
 
             </div>
             <p class="type">Nº:</p>
             <div class="containerinput3">
-                <input class="input3" type="text" name="numero" id="numero" placeholder="Ex:0">
+                <input class="input3" type="text" name="numero" id="numero" placeholder="Somente números" required>
 
             </div>
 

@@ -35,12 +35,12 @@
             <p class="type">Razão Social:</p>
             <div class="containerinput">
                 
-                <input class="input" type="text" name="razaoSocial" id="razaoSocial" required>
+                <input class="input" type="text" name="razaoSocial" id="razaoSocial" placeholder="Coca Cola Indústrias Ltda" required>
 
             </div>
             <p class="type">Nome Fantasia:</p>
             <div class="containerinput1">
-                <input class="input1" type="text"  name="fantasia" id="fantasia" required>
+                <input class="input1" type="text"  name="fantasia" id="fantasia" placeholder="Coca Cola" required>
 
             </div>
             <p class="type">Email:</p>
@@ -50,7 +50,7 @@
             </div>
             <p class="type">Telefone:</p>
             <div class="containerinput3">
-                <input class="input3" type="text" name="telefone" id="telefone" placeholder="Ex:00000-000" required>
+                <input class="input3" type="text" name="telefone" id="telefone" placeholder="Somente números" required>
 
             </div>
 

@@ -20,7 +20,7 @@
         </nav>
         <div class="container">
             <div class="itens">
-                <a href="./../../toquenarede/Empresa/TelaArenaPraia.php" class="linkitens">Meu Perfil</a>
+                <a href="" class="linkitens">Meu Perfil</a>
             </div>
             <div class="itens">
                 <a href="./../../toquenarede/quemSomos/quemSomosEmpresa.php" class="linkitens" >Quem Somos</a>
@@ -29,10 +29,10 @@
                 <a href="./TelaAdicionarADM.php" class="linkitens">Adicionar ADM</a>
             </div>
             <div class="itens">
-                <a href="./TelaArenaPraia.php" class="linkitens">Minhas Arenas</a>
+                <a href="./../../toquenarede/Empresa/home_empresa.php" class="linkitens">Minhas Arenas</a>
             </div>
             <div class="itens">
-                <a href="" class="linkitens">Configuração</a>
+                <a href="./../../toquenarede/emConstrucao.php" class="linkitens">Configuração</a>
             </div>
         </div>
         <div >
@@ -50,4 +50,13 @@
                     Dom. 08:00h até as 20:00h
          </p>           
         </div>
+        <form action="./autenticacoes/botao.php" method="POST">
+            <div class="containerbtn">
+                <button class="btn" name="reserva">
+                Veja as reservas feitas
+                </button> 
+                </div>
+            
+            </div>
+            </form>
 </html>

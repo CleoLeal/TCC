@@ -20,7 +20,7 @@
                 Traga a praia para a cidade
             </p>
 
-            <form action="./autenticacoes/autenticarLogin.php" method="POST">
+            <form action="./autenticacoes/autenticacoes.php" method="POST">
             <div> 
             <p class="type"> Usúario</p>
                 <div class="containerinput">

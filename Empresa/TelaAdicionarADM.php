@@ -32,13 +32,13 @@
                 <a href="./../../toquenarede/quemSomos/quemSomosEmpresa.php" class="linkitens">Quem Somos</a>
             </div>
             <div class="itens">
-                <a href="./TelaAdicionarADM.php" class="linkitens">Adicionar ADM</a>
+                <a href="" class="linkitens">Adicionar ADM</a>
             </div>
             <div class="itens">
                 <a href="./../../toquenarede/Empresa/home_empresa.php" class="linkitens">Minhas Arenas</a>
             </div>
             <div class="itens">
-                <a href="" class="linkitens">Configuração</a>
+                <a href="./../../toquenarede/emConstrucao.php" class="linkitens">Configuração</a>
             </div>
         </div>
 

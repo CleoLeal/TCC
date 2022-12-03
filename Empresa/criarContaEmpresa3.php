@@ -28,12 +28,12 @@
         <form action="./autenticacoes/entrar.php" method="POST">    
             <p class="type"> Senha:</p>
             <div class="containerinput1">
-                <input class="input1" type="password" name="senha" id="senha">
+                <input class="input1" type="password" name="senha" id="senha" required>
 
             </div>
             <p class="type"> Confirmar Senha: </p>
             <div class="containerinput2">
-                <input class="input2" type="password" name="confirmar" id="confirmar">
+                <input class="input2" type="password" name="confirmar" id="confirmar" required>
             </div>
             <div class="containerbtn">
             <button class="btn">
