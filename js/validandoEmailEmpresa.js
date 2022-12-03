@@ -1,24 +1,22 @@
 $(document).ready(function() {
 
 function limpa_formulário_email() {
-    $("#email").val("Informe e-mail válido");
+    $("#email").val("");
 }
 
-//Quando o campo cep perde o foco.
-$("#email").blur(function() {
+    //Quando o campo cep perde o foco.
+    $("#email").blur(function() {
 
     //Nova variável eemail.
     var eemail = $(this).val();
     //Verifica se campo cep possui valor informado.
     if (eemail != "") {
 
-        //Consulta o webservice viacep.com.br/
+        //Consulta no arquivo validarEmailEmpresa.php
         $.getJSON("validarEmailEmpresa.php?email="+ eemail  , function(dados) {
-
-
                 if (!( dados.erro == true)) {
+
                     //Verificar se e-mail retornado não tem cadastro
-                    
                     let emailCadastrado = dados.existente
                     if (emailCadastrado) {
                         
@@ -26,7 +24,7 @@ $("#email").blur(function() {
                     }
                 } //end if.
                 else {
-                    //CEP pesquisado não foi encontrado.
+                    //email pesquisado não foi encontrado.
                     limpa_formulário_email();
                     alert("Erro ao consultar e-mail.");
                 }

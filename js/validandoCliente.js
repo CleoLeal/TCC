@@ -1,24 +1,22 @@
 $(document).ready(function() {
 
     function limpa_formulário_email() {
-        $("#email").val("Informe e-mail válido");
+        $("#email").val();
     }
     
-    //Quando o campo cep perde o foco.
+    //Quando o campo email perde o foco.
     $("#email").blur(function() {
     
-        //Nova variável eemail.
+        //Nova variável email.
         var eemail = $(this).val();
-        //Verifica se campo cep possui valor informado.
+        //Verifica se campo email possui valor informado.
         if (eemail != "") {
     
-            //Consulta o webservice viacep.com.br/
-            $.getJSON("validarEmailCliente.php?email="+ eemail  , function(dados) {
-    
-    
+            //Consulta no arquivo validarEmailCliente.php
+            $.getJSON("validarEmailCliente.php?email="+ eemail, function(dados) {
+                
                     if (!( dados.erro == true)) {
                         //Verificar se e-mail retornado não tem cadastro
-                        
                         let emailCadastrado = dados.existente
                         if (emailCadastrado) {
                             

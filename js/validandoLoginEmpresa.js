@@ -4,28 +4,29 @@ $(document).ready(function() {
         $("#senha").val();
     }
     
-    //Quando o campo cep perde o foco.
+    //Quando o campo senha perde o foco.
     $("#senha").blur(function() {
     
-        //Nova variável eemail.
+        //Nova variável eemail e ssenha.
         var eemail = $("#email").val();
         var ssenha = $(this).val();
-        //Verifica se campo cep possui valor informado.
+
+        //Verifica se campo senha possui valor informado.
         if (ssenha != "") {
-            //Consulta o webservice viacep.com.br/
+            //Consulta no arquivo validarLogin.php
             $.getJSON("validarLogin.php?email="+ eemail + "&senha=" + ssenha  , function(dados) {
     
                     if (!( dados.erro == true)) {
-                        //Verificar se e-mail retornado não tem cadastro
+                        //Verificar se as informações retornadas tem cadastro
                         
-                        let emailCadastrado = dados.existente
-                        if (!emailCadastrado) {
+                        let cadastro = dados.existente
+                        if (!cadastro) {
                             
                             alert("E-mail e/ou senha estão incorretos");
                         }
                     } //end if.
                     else {
-                        //CEP pesquisado não foi encontrado.
+                        //informações pesquisadas não foram encontrado.
                         limpa_formulário_email();
                         alert("Erro ao consultar e-mail.");
                     }

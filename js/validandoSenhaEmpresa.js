@@ -4,21 +4,21 @@ $(document).ready(function() {
         $("#confirmar").val();
     }
     
-    //Quando o campo cep perde o foco.
+    //Quando o campo confirmar perde o foco.
     $("#confirmar").blur(function() {
         //Nova variável eemail.
         var ssenha = $("#senha").val();
         var cconfirmar = $(this).val();
     
-        //Verifica se campo cep possui valor informado.
+        //Verifica se campo confirmar possui valor informado.
         if (cconfirmar != "") {
     
-            //Consulta o webservice viacep.com.br/
+            //Consulta no arquivo validarSenha.php
             $.getJSON("validarSenha.php?senha="+ ssenha + "&confirmar=" + cconfirmar , function(dados) {
     
     
                     if (!( dados.erro == true)) {
-                        //Verificar se e-mail retornado não tem cadastro
+                        //Verificar se as senhas estão iguais
                         
                         let senhas = dados.existente
                         if (!senhas) {
@@ -27,9 +27,9 @@ $(document).ready(function() {
                         }
                     } //end if.
                     else {
-                        //CEP pesquisado não foi encontrado.
+                        //senha pesquisado não foi encontrado.
                         limpa_formulário_email();
-                        alert("Erro ao consultar e-mail.");
+                        alert("Erro ao consultar as senhas.");
                     }
             });
         } //end if.

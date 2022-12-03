@@ -4,7 +4,7 @@ $(document).ready(function() {
         $("#email").val();
     }
     
-    //Quando o campo cep perde o foco.
+    //Quando o campo email perde o foco.
     $("#email").blur(function() {
     
         //Nova variável eemail.
@@ -12,7 +12,7 @@ $(document).ready(function() {
         //Verifica se campo cep possui valor informado.
         if (eemail != "") {
     
-            //Consulta o webservice viacep.com.br/
+            //Consulta no arquivo validarAdm.php
             $.getJSON("validarAdm.php?email="+ eemail  , function(dados) {
     
     
@@ -26,7 +26,7 @@ $(document).ready(function() {
                         }
                     } //end if.
                     else {
-                        //CEP pesquisado não foi encontrado.
+                        //email pesquisado não foi encontrado.
                         limpa_formulário_email();
                         alert("Erro ao consultar e-mail.");
                     }

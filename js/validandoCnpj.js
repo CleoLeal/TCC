@@ -4,22 +4,21 @@ $(document).ready(function() {
         $("#cnpj").val("Informe e-mail válido");
     }
     
-    //Quando o campo cep perde o foco.
+    //Quando o campo cnpj perde o foco.
     $("#cnpj").blur(function() {
     
-        //Nova variável eemail.
+        //Nova variável cnpj.
         var cnpj = $(this).val();
-        //Verifica se campo cep possui valor informado.
+        //Verifica se campo cnpj possui valor informado.
         if (cnpj != "") {
-            //Consulta o webservice viacep.com.br/
+            //Consulta o arquivo validarCnpj.php
             $.getJSON("validarCnpj.php?cnpj="+ cnpj  , function(dados) {
-    
-    
+
                     if (!( dados.erro == true)) {
-                        //Verificar se e-mail retornado não tem cadastro
+                        //Verificar se cnpj retornado não tem cadastro
                         
-                        let emailCadastrado = dados.existente
-                        if (!emailCadastrado) {
+                        let cnpjj = dados.existente
+                        if (!cnpjj) {
                             
                             alert("O cnpj está incorreto");
                         }
@@ -27,7 +26,7 @@ $(document).ready(function() {
                     else {
                         //CEP pesquisado não foi encontrado.
                         limpa_formulário_email();
-                        alert("Erro ao consultar e-mail.");
+                        alert("Erro ao consultar o CNPJ.");
                     }
             });
         } //end if.
