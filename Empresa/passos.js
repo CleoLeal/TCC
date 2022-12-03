@@ -13,3 +13,8 @@ function criarConta()
 {
     window.location = "./criarContaEmpresa1.php";
 }
+//avança para a página quemSomos
+function quemSomos()
+{
+    window.location = "./../../toquenarede/QuemSomos/index.php";
+}
