@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    font-family: "oswald";
+    justify-content: center;
+    align-items: center;
+}
+
+.emConstruct{
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0  ;
+    z-index: -1;
+
+    display: block;
+    /*background-image: url('http://austintecnologia.com.br/wp-content/uploads/2018/03/Estamos-em-Constru%C3%A7%C3%A3o-768x433.png');*/
+    width: 100vw;
+    height: 100vh;
+}
+
+marquee{
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+    .emConstruct{
+        width: 100%;
+        height: 50%;
+    }
+}

@@ -9,11 +9,11 @@
     if($codigo == '123456')
     {
         //ele avança
-        header("Location: ./../../../../toquenarede/esqueciSenha/RedefenirSenha.html");
+        header("Location: ./../../../../toquenarede/esqueciSenha/RedefenirSenha.php");
     }
     else 
     {
         //senão, não avança
-        header("Location: ./../../../../toquenarede/esqueciSenha/CodigoSenha.html");
+        header("Location: ./../../../../toquenarede/esqueciSenha/CodigoSenha.php");
     }
 ?>  

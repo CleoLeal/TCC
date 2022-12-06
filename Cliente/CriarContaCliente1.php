@@ -12,7 +12,6 @@
 </head>
 <body>
     <script src="../js/validandoCliente.js"></script>
-    <script src="../js/viacep.js"></script>
     <div class="img"></div>
     <div class="process">
         <p class="numbers active">1</p>

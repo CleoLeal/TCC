@@ -22,7 +22,7 @@
         </p>
 
         <div>
-        <form action="./autenticacoes/autenticacoes.php" method="POST">
+        <form action="./autenticacoes/autenticarLogin.php" method="POST">
             <p class="type"> Usúario: </p>
             <div class="containerinput">
                 <label class="label" for="senha">

@@ -23,10 +23,10 @@
         
         <div class="container">
             <div class="itens">
-                <a href="" class="linkitens">Meu Perfil</a>
+                <a href="./../../toquenarede/Empresa/TelaArenaPraia.php" class="linkitens">Meu Perfil</a>
             </div>
             <div class="itens">
-                <a href="./quemSomos.php" class="linkitens">Quem Somos</a>
+                <a href="" class="linkitens">Quem Somos</a>
             </div>
             <div class="itens">
                 <a href="./../../toquenarede/Empresa/TelaAdicionarADM.php" class="linkitens">Adicionar ADM</a>
