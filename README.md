@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - MySql
 - phpMyadmin
 - Json
-
+- C#
 ---
 ## 💻 Projeto
 
