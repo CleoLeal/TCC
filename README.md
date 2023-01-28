@@ -32,6 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Json
 - C#
 ---
+
 ## 💻 Projeto
 
 O Toque na Rede serve para facilitar os atletas e as empresas que fornecem arenas de praia para uma fácil comunicação e reservas/day use de arenas.
@@ -42,6 +43,7 @@ O Toque na Rede serve para facilitar os atletas e as empresas que fornecem arena
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/BUdiSOcCIyAcius5hbpI3Y/Toque-na-Rede?node-id=0%3A1&t=G85nsp5mXNQVQC8S-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+---
 
 ## 🚹🚺 Integrantes
 - [Cleo Leal](https://github.com/CleoLeal)
