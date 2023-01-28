@@ -1,45 +1,53 @@
-# TCC
-Repostirório feito para o TCC da ETEC
+<h1 align="center"> Toque Na Rede </h1>
 
-CÁLCULOS:
-  Logo:
-    padding: 2vh 2.5vw;
-    position: relative;
-    width: 25vw;
-    height: 17vh;
-    top: -0.52vh;
-    right: 1;
-    *ELE É FIXO POR COMPLETO*
+<p align="center">
+Esse é um projeto para um Trabalho de Conlcusão de Curso da ETEC Albert Einstein.
+</p>
 
-  Input: 
-    position: absolute; 
-    width: 23vw;
-    height: 4.5vh;
-    left: 3.5vw;
-    top: 25vh;
-    border: 0.12vh solid #000000;
-    border-radius: 2vh;  
-    *SOMENTE O TOP TEM ALTERAÇÃO*
-    tentem sempre ser números "fixos o top e left. Ex: 5,10,15,20
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-integrantes">Integrantes</a>
+</p>
 
-ENDEREÇO DAS IMAGENS:
 <br>
-    Fundo - Login cliente: https://www.ubatuba.sp.gov.br/wp-content/uploads/sites/2/2016/11/VDP.jpg
-<br>
-    Fundo - Login Empresa: https://minimanual.com/wp-content/uploads/POSICIONES-DEL-VOLEIBOL-5.jpeg
-<br>   
-    Fundo - Criar conta: https://i0.wp.com/avelaresportes.com/wp-content/uploads/2021/10/volei-de-praia-um-21-10.jpg?resize=800%2C445&ssl=1
-<br>    
-    Fundo -  Esqueci senha: https://www.olimpiadatododia.com.br/wp-content/uploads/2019/05/Circuito-Mundial-de-v%C3%B4lei-de-praia-1.jpg
-<br>   
-    Fundo - Criar Conta Cliente: https://regrasdoesporte.com.br/wp-content/uploads/2012/12/regras-volei-de-praia.jpg
-<br>
-    Ícone user (EMPRESA):https://cdn-icons-png.flaticon.com/512/8175/8175264.png
-<br>    
-    Ícone senha (CLIENTE E EMPRESA): https://cdn-icons-png.flaticon.com/512/45/45259.png
-<br>    
-    Ícone user (CLIENTE): https://cdn-icons-png.flaticon.com/512/456/456212.png
-<br>
-    Lupa: https://cdn-icons-png.flaticon.com/512/3772/3772344.png
-<br>
-    Logo: https://i.ibb.co/2FCQKwC/logoTNR.png
+
+<p align="center">
+  <img alt="TCC Toque na Rede" src=".github/preview.jpg" width="100%">
+</p>
+
+---
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
+- Figma
+- PHP
+- MySql
+- phpMyadmin
+- Json
+
+---
+## 💻 Projeto
+
+O Toque na Rede serve para facilitar os atletas e as empresas que fornecem arenas de praia para uma fácil comunicação e reservas/day use de arenas.
+
+- Se ficou com curiosidade, você pode visitar o site do [Toque na Rede](http://toquenarede.epizy.com/toquenarede/quemSomos/) por aqui
+
+--- 
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/BUdiSOcCIyAcius5hbpI3Y/Toque-na-Rede?node-id=0%3A1&t=G85nsp5mXNQVQC8S-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## 🚹🚺 Integrantes
+- [Cleo Leal](https://github.com/CleoLeal)
+- [Cristian Gonçalves](https://github.com/cris-star-oss)
+- [Elias Mendonça](https://github.com/EliasQueIsso)
+- [Jullia Barros](https://github.com/Jullia-Barros)
+- [Rayssa Portugal](https://github.com/RayssaPortugal)
+
+---
