@@ -46,10 +46,10 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 ---
 
 ## 🚹🚺 Integrantes
-- [Cleo Leal](https://github.com/CleoLeal)
-- [Cristian Gonçalves](https://github.com/cris-star-oss)
-- [Elias Mendonça](https://github.com/EliasQueIsso)
-- [Jullia Barros](https://github.com/Jullia-Barros)
-- [Rayssa Portugal](https://github.com/RayssaPortugal)
+- [Cleo Leal](https://github.com/CleoLeal) - Back-end e Banco de Dados
+- [Cristian Gonçalves](https://github.com/cris-star-oss) - Front-end
+- [Elias Mendonça](https://github.com/EliasQueIsso) - Front-end
+- [Jullia Barros](https://github.com/Jullia-Barros) - Fron-end
+- [Rayssa Portugal](https://github.com/RayssaPortugal) - Front-end
 
 ---
